@@ -1,0 +1,68 @@
+.type-03{
+	.margin_auto
+	{
+		width: 1200px;
+		margin: 0px auto;
+		.hover_zoom{position: relative;overflow:  hidden;display: block;}
+		.hover_zoom img {width: 100%; -webkit-transform: scale(1);transform: scale(1);-webkit-transition: .3s ease-in-out;transition: .3s ease-in-out;position: relative;}
+		.hover_zoom:hover img {-webkit-transform: scale(1.09);transform: scale(1.09);}
+		h2{
+			text-transform: uppercase;
+			font-family: 'Open Sans', sans-serif;
+			color: #333333;
+			font-size: 25px;
+			font-weight: 800;
+			text-align: center;
+			padding: 0px 0px 20px 0;
+		}
+		span{
+			color: gray;
+		}
+		.gioithieu{
+			width: 100%;
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+		}
+		.noidung_gioithieu{
+			width: 758px;
+			position: relative;
+			.title_gt{
+				h3{
+					position: relative;
+					text-transform: uppercase;
+					font-family: 'Open Sans', sans-serif;
+					color: #333333;
+					font-size: 25px;
+					font-weight: 800;
+					margin-block-start: -3px;
+					&:after{
+						content: "";
+						position: absolute;
+						border-bottom: 3px solid blue;
+						bottom: -7px;
+						left: 0;
+						width: 19%;
+					}
+				}
+			}
+			.mota_noidung{
+				p{
+					font-family: 'Open Sans', sans-serif;
+					color: #333333;
+					font-size: 15px;
+					font-weight: 400;
+					overflow: hidden;
+					text-overflow: ellipsis;
+					line-height: 26px;
+					max-height: 100%;
+					-webkit-line-clamp: 6;
+					display: -webkit-box;
+					-webkit-box-orient: vertical;
+					font-weight: 400;
+					text-align: justify;
+				}
+			}
+		}
+	}
+}
