@@ -1,0 +1,77 @@
+.type-05 html,
+.type-05 body {
+  position: relative;
+  height: 100%;
+}
+.type-05 body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+.type-05 .swiper-container {
+  width: 100%;
+  height: 100%;
+}
+.type-05 .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.type-05 .text-center img {
+  transition: transform .5s ease;
+  margin-bottom: -15px;
+  width: 100%;
+  display: block;
+}
+.type-05 .text-center:hover img {
+  transform: scale(1.2);
+}
+.type-05 .tieude {
+  font-weight: bold;
+  text-align: center;
+  font-size: 30px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+.type-05 .text-center {
+  position: relative;
+  background: #fff;
+  height: auto;
+  overflow: hidden;
+  display: block;
+}
+.type-05 .new-1 {
+  position: absolute;
+  width: 100%;
+  z-index: 3;
+  top: 0px;
+  height: 340px;
+  left: 0px;
+}
+.type-05 .new-1 .new {
+  position: absolute;
+  left: 0px;
+  background-color: red;
+  width: 50px;
+  text-align: center;
+  color: white;
+  border-width: 2px;
+  border-style: solid;
+  border-color: white;
+  border-image: initial;
+}
