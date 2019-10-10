@@ -25,9 +25,25 @@
 	<link rel="stylesheet" href="css/05.css">	
     <script src="../05/js/jquery-2.1.4.min.js"></script>
     <script src="../05/js/swiper.min.js"></script>  
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.7/dist/vue.js"></script>
 </head>
 <body>
-	<?php include '../05/05-content.php'; ?>  
+	<?php include '../05/05-content.php';?>  
     <script src="../05/js/05.js"></script>
 </body>
 </html>
+<script>
+    var example1 = new Vue({
+    el: '.swiper-wrapper',
+    data: {
+        items: [
+        { name: 'hinh1' },
+        { name: 'hinh2' },
+        { name: 'hinh3' },
+        { name: 'hinh4' },
+        { name: 'hinh5' },
+        { name: 'hinh6' }
+        ]
+    }
+})
+</script>

@@ -17,54 +17,15 @@ $url_path = str_replace('\\', '/', $url_path);
       </div>
       <div class="swiper-container">
         <div class="swiper-wrapper">
-          <div class="swiper-slide">
+          <div class="swiper-slide" v-for="item in items">
             <div class="text-center">
               <img onerror="this.src='http://placehold.it/600x500'" src="" alt="" >
                   <div class="new-1">
-                <span class="new">HOT</span>
+                <span class="new">{{ item.name }}</span>
               </div> 
             </div>
           </div>
-          <div class="swiper-slide">
-            <div class="text-center">
-              <img onerror="this.src='http://placehold.it/600x500'" src="" alt="" >
-                 <div class="new-1">
-                <span class="new">HOT</span>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="text-center">
-              <img onerror="this.src='http://placehold.it/600x500'" src="" alt="" >
-                 <div class="new-1">
-                <span class="new">HOT</span>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="text-center">
-              <img onerror="this.src='http://placehold.it/600x500'" src="" alt="" >
-                 <div class="new-1">
-                <span class="new">HOT</span>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="text-center">
-              <img onerror="this.src='http://placehold.it/600x500'" src="" alt="" >
-                 <div class="new-1">
-                <span class="new">HOT</span>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="text-center">
-              <img onerror="this.src='http://placehold.it/600x500'" src="" alt="" >
-                 <div class="new-1">
-                <span class="new">HOT</span>
-              </div>
-            </div>
-          </div>
+
         </div>       
         <!-- Add Arrows -->
         <div class="button">
