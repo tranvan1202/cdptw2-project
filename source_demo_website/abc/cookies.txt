@@ -1,0 +1,8 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+demo.pixel-mafia.com	TRUE	/wp/vincent/	FALSE	1999999999	woocommerce_items_in_cart	1
+demo.pixel-mafia.com	TRUE	/wp/vincent/	FALSE	1999999999	wp_woocommerce_session_d0c89723ad9ad36f25c285c43c112a71	0eb237a138d62d3bfa9ef0b24a51d524%7C%7C1570865531%7C%7C1570861931%7C%7Cbbf3142faf8eb90ae8486673d882beea
+demo.pixel-mafia.com	TRUE	/wp/vincent/	FALSE	1999999999	woocommerce_cart_hash	8ace4776aceddcbfea7620e017f48d63
+demo.pixel-mafia.com	TRUE	/	FALSE	1999999999	vchideactivationmsg	1
+demo.pixel-mafia.com	TRUE	/	FALSE	1999999999	vchideactivationmsg_vc11	6.0.5
+
