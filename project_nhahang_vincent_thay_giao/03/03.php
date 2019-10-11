@@ -29,8 +29,6 @@ $less->compileFile('less/03.less', 'css/03.css');
         <script src="js/jquery-2.1.4.min.js"></script>
         <script src="js/bootstrap-3.3.6.min.js"></script>
         
-        <link rel="stylesheet" href="css/swiper-4.5.1.min.css">
-        <script src="js/swiper-4.5.1.min.js"></script>
     </head>
     <body>
         <?php include '../03/03-content.php'; ?>
