@@ -1,0 +1,39 @@
+.type-03 {
+  background-image: url(../images/03-bg.png) !important;
+  margin-bottom: 65px !important;
+  padding-top: 54px !important;
+  padding-bottom: 63px !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+}
+.type-03 .vincent_tieuchi_iconbox {
+  text-align: center;
+}
+.type-03 .vincent_tieuchi h4 {
+  font-family: 'PT Sans Narrow', sans-serif;
+  text-align: center;
+  font-size: 24px;
+  line-height: 24px;
+  letter-spacing: 5px;
+  font-weight: 400;
+  text-transform: uppercase;
+  display: block;
+  margin-block-start: 1.33em;
+  margin-block-end: 1.33em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+.type-03 .vincent_tieuchi_text {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+.type-03 .vincent_tieuchi_text p {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  margin: 18px 0;
+  font-size: 15px;
+}
