@@ -52,7 +52,7 @@ $url_path = str_replace('\\', '/', $url_path);
 
         <!-- Chi tiết sản phẩm trong danh mục -->
         <div class="vincent_prod_output_container">
-          <div class="col-md-3 col-xs-3">
+          <div class="col-md-3 col-xs-6">
             <div class="vc_prod_item_wrapper">
               <div class="vc_prod_list_image_wrapper">
                 <img src="images/06-food1" alt=""> 
@@ -63,7 +63,7 @@ $url_path = str_replace('\\', '/', $url_path);
             </div>
           </div>
 
-          <div class="col-md-3 col-xs-3">
+          <div class="col-md-3 col-xs-6">
             <div class="vc_prod_item_wrapper">
               <div class="vc_prod_list_image_wrapper">
                 <img src="images/06-food1" alt=""> 
@@ -74,7 +74,7 @@ $url_path = str_replace('\\', '/', $url_path);
             </div>
           </div>
 
-          <div class="col-md-3 col-xs-3">
+          <div class="col-md-3 col-xs-6">
             <div class="vc_prod_item_wrapper">
               <div class="vc_prod_list_image_wrapper">
                 <img src="images/06-food1" alt=""> 
@@ -85,7 +85,7 @@ $url_path = str_replace('\\', '/', $url_path);
             </div>
           </div>
 
-          <div class="col-md-3 col-xs-3">
+          <div class="col-md-3 col-xs-6">
             <div class="vc_prod_item_wrapper">
               <div class="vc_prod_list_image_wrapper">
                 <img src="images/06-food1" alt=""> 
@@ -96,7 +96,7 @@ $url_path = str_replace('\\', '/', $url_path);
             </div>
           </div>
 
-          <div class="col-md-3 col-xs-3">
+          <div class="col-md-3 col-xs-6">
             <div class="vc_prod_item_wrapper">
               <div class="vc_prod_list_image_wrapper">
                 <img src="images/06-food1" alt=""> 
@@ -107,7 +107,7 @@ $url_path = str_replace('\\', '/', $url_path);
             </div>
           </div>
 
-          <div class="col-md-3 col-xs-3">
+          <div class="col-md-3 col-xs-6">
             <div class="vc_prod_item_wrapper">
               <div class="vc_prod_list_image_wrapper">
                 <img src="images/06-food1" alt=""> 
@@ -118,7 +118,7 @@ $url_path = str_replace('\\', '/', $url_path);
             </div>
           </div>
 
-          <div class="col-md-3 col-xs-3">
+          <div class="col-md-3 col-xs-6">
             <div class="vc_prod_item_wrapper">
               <div class="vc_prod_list_image_wrapper">
                 <img src="images/06-food1" alt=""> 
@@ -129,7 +129,7 @@ $url_path = str_replace('\\', '/', $url_path);
             </div>
           </div>
 
-          <div class="col-md-3 col-xs-3">
+          <div class="col-md-3 col-xs-6">
             <div class="vc_prod_item_wrapper">
               <div class="vc_prod_list_image_wrapper">
                 <img src="images/06-food1" alt=""> 
