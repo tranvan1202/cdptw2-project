@@ -1,0 +1,75 @@
+body{
+	background: #F3F3F3;
+}
+.title h2{
+	color: #083D4B;
+	font-weight: bolder;
+}
+.hai{
+	background: none;
+	font-size: 18px;
+	font-weight: 600;
+	padding: 0 15px;
+	padding-left: 0;
+}
+.container-fluid{
+	padding-left: 0
+}
+.navbar-default{
+	background: none;
+	border: none;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+	background: none;
+}
+.navbar-default .navbar-nav>li>a{
+	font-size: 18px;
+	padding: 5px 0 5px 0px;
+	color: #fff;
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: #fff;
+}
+.addproduct{
+	border: 1px solid #f7335d;
+	color: #fff;
+	background: #f7335d;
+	border-radius: 99px;
+	padding: 10px;
+}
+.addpro a{
+	text-decoration: none;
+}
+.addpro a:hover{
+	color: #000;
+}
+.addpro{
+	margin-bottom: 40px;
+}
+.end{
+	text-align: center;
+	color: #fff;
+	background: #f7335d;
+}
+col3{
+	float: right;
+}
+.menu-tono1 li{
+    border: 1px solid #f7335d;
+    color: #fff;
+    background: #f7335d;
+    border-radius: 99px;
+    padding: 10px;
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{
+	color: #000;
+}
+.nadd{
+	background: #f7335d;
+	margin-bottom: 40px;
+}
+
+.icon-plus{
+	background: red;
+	color: red;
+}

@@ -1,0 +1,271 @@
+footer{
+	margin-top: 30px;
+	background: #65932A;
+}
+body{
+	font-weight: 440;
+}
+
+.sortNg{
+	border-radius: 33px;
+	float: right;
+}
+.itemsort:hover{
+	background: #fff;
+}
+.homeproduct{
+	margin-top: 50px;
+}
+.top-head{
+	border-bottom: 1px solid #dfdfdf;
+	background: #80BB35;
+	padding: 0.3em;
+}
+.top-head-left a{
+	color: #fff;
+	text-decoration: none;
+	padding-right: 0.5em;
+}
+.fa{
+	color: #fff;
+}
+.login{
+	float: right;
+	color: #fff;
+}
+.login a{
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+}
+.login a:hover{
+	color: #FE9705;
+}
+.mid-head{
+	padding: 50px;
+}
+.mid-mid-head{
+	padding: 0;
+}
+.a-left p{
+	margin-bottom: 0;
+}
+.a-left{
+	padding-left: 0.5em;
+}
+.a-left a{
+	color: #000;
+	font-weight: 500;
+	text-decoration: none;
+}
+.shoping-cart{
+	background: #FE9705;
+	padding: 5px;
+	border-radius: 20px;
+}
+.shoping-cart a{
+	color: #fff;
+	text-decoration: none;
+	margin-left: 0.5em;
+}
+.a-left a:hover{
+	color: #80BB35;
+}
+.bot-head{
+	background: #80BB35;
+}
+.nav-item a{
+	color: #fff;
+	padding: 20px;
+	font-size: 18px;
+}
+.navbar-nav li:hover > a{
+	background: #FE9705;
+	color: #fff;
+}
+.navbar-white{
+	padding: 0;
+}
+.hoc_logo{
+	margin-top: 50px;
+}
+.img-hoc-logo img{
+	width: 100px;
+	height: 100px;
+	border: 3px solid #80BB35;
+	padding: 10px;
+	border-radius: 20px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.foot{
+	padding-top: 50px;
+	color: #fff;
+}
+.foot h5{
+	font-weight: 800;
+	margin-bottom: 25px;
+}
+.foot-danhmuc li:hover{
+	color: #FE9705;
+}
+.foot-danhmuc a{
+	color: #fff;
+	text-decoration: none;
+}
+.foot-danhmuc a:hover{
+	color: #fff;
+}
+.content-danhmuc li{
+	color: #000;
+}
+.content-danhmuc a{
+	color: #000;
+	text-decoration: none;
+}
+.top-content{
+	margin-top: 50px;
+	
+}
+.top-content h5{
+	background: #80BB35;
+	color: #fff;
+	border-radius: 20px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 20px;
+}
+.content-danhmuc{
+	border-left: 1px solid #EBEBEB;
+	border-right: 1px solid #EBEBEB;
+	border-bottom:  1px solid #EBEBEB;
+	border-radius: 20px;
+	margin-top: 20px;
+}
+.content-danhmuc li{
+	padding-top: 15px;
+	border-bottom:  1px solid #EBEBEB;
+}
+.content-danhmuc li:hover, a:hover{
+	color: #80BB35;
+}
+
+.topnav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+.topnav .search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.topnav .search-container button:hover {
+  background: #ccc;
+}
+.form-search input{
+	margin-left: 300px;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+}
+.form-search button{
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+.topnav .search-container button{
+	background: #fff;
+}
+.topnav .search-container button:hover{
+	background: #fff;
+}
+.fa-search{
+	color: #000;
+}
+.form-input-gia{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding-left: 15px;
+}
+.form-check-gia label{
+	padding-bottom: 15px;
+	padding-left: 15px;
+}
+.form-check-gia label:hover{
+	color: #80BB35;
+}
+.form-input-gia input{
+	border-radius: 20px;
+}
+.form-input-gia button{
+	border-radius: 20px;
+}
+.product_item{
+	border: 1px solid #EBEBEB;
+	border-radius: 33px;
+	margin-bottom: 30px;
+}
+.product_item h3{
+	color: #000;
+	text-align: center;
+	font-size: 16px;
+}
+.product_item h3:hover{
+	color: #80BB35;
+}
+.product_item p{
+	color: #FE9705;
+	text-align: center;
+	font-size: 15px;
+}
+.product_item a:hover{
+	text-decoration: none;
+}
+.product_item img{
+	width: 150px; 
+	height: 180px; 
+	margin: 0px 50px 15px 50px;
+	padding-top: 20px;
+}
+.product_item img:hover{
+	padding-top:0;
+	padding-bottom: 20px;
+}
+.installment{
+    position: absolute;
+    font-size: 1em;
+    color: #FFF;
+    font-weight: 400;
+    padding: 0px 12px 0 8px;
+    line-height: 25px;
+    text-align: center;
+    top: 25px;
+    left: 15px;
+    z-index: 10;
+    background-color: #fe9705;
+    font-size: 14px;
+}
+.top-head-left a{
+	color: #fff;
+	text-decoration: none;
+	padding-right: 20px;
+}
+.mot a{
+	color: #fff;
+	text-decoration: none;
+	padding-right: 20px
+}
+.home{
+	margin-top: 50px;
+}
+.ptrang{
+	font-size: 24px;
+}
