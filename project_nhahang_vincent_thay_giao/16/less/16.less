@@ -1,0 +1,84 @@
+@font_family_1: 'PT Sans Narrow';
+@color_1: #dce4e8;
+@color_2: #FFC851;
+.type-16 {
+	.box-filter-price {
+		width: 355px;
+		background: #1d2326;
+		.form-range {
+			padding: 40px 38px;
+			form {
+				.rangeslider {
+					margin-bottom: 50px;
+					position: relative;
+					.filterName {
+						margin-bottom: 35px;
+						span {
+							text-transform: uppercase;
+							font-family: @font_family_1;
+							font-size: 18px;
+							color: @color_1;
+							letter-spacing: 3px;
+							font-weight: 700;
+						}
+					}
+					.ui-rangeslider-sliders {
+						margin: 0px 15px;
+						.ui-slider-track {
+							background: none;
+							border: none;
+							border-radius: 0px;
+							height: 5px;
+							.ui-slider-bg {
+								background: @color_2;
+								height: 5px;
+								border-radius:0px;
+							}
+							.ui-slider-handle {
+								width: 15px;
+								height: 15px;
+								border-radius:0px;
+								top: 10px;
+								background: @color_2;
+								border: none;
+								box-shadow: none;
+								text-align: left;
+							}
+						}
+					}
+					.ui-slider-input {
+						background: none;
+						color: @color_1;
+						border: none;
+						box-shadow: none;
+						margin-top: 20px;
+						font-weight: normal;
+						&:nth-child(2) {
+							text-align: left;
+						}
+						&:before {
+							content: '$';
+						}
+					}
+				}
+				.btn-filter {
+					position: relative;
+					a {
+						padding: 10px 20px;
+						color: @color_1;
+						font-size: 14px;
+						font-family: @font_family_1;
+						letter-spacing: 3px;
+						font-weight: normal;
+						border: 2px solid @color_1;
+						&:hover{
+							border: 2px solid @color_2;
+							text-decoration: none;
+							color: @color_2;
+						}
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,5 @@
+@font-face {
+    font-family: 'PT Sans Narrow';
+    src: url('../fonts/PTSansNarrow-Regular.woff2') format('woff2'),
+         url('../fonts/PTSans-Narrow.woff') format('woff');
+}

@@ -1,0 +1,77 @@
+.type-16 .box-filter-price {
+  width: 355px;
+  background: #1d2326;
+}
+.type-16 .box-filter-price .form-range {
+  padding: 40px 38px;
+}
+.type-16 .box-filter-price .form-range form .rangeslider {
+  margin-bottom: 50px;
+  position: relative;
+}
+.type-16 .box-filter-price .form-range form .rangeslider .filterName {
+  margin-bottom: 35px;
+}
+.type-16 .box-filter-price .form-range form .rangeslider .filterName span {
+  text-transform: uppercase;
+  font-family: 'PT Sans Narrow';
+  font-size: 18px;
+  color: #dce4e8;
+  letter-spacing: 3px;
+  font-weight: 700;
+}
+.type-16 .box-filter-price .form-range form .rangeslider .ui-rangeslider-sliders {
+  margin: 0px 15px;
+}
+.type-16 .box-filter-price .form-range form .rangeslider .ui-rangeslider-sliders .ui-slider-track {
+  background: none;
+  border: none;
+  border-radius: 0px;
+  height: 5px;
+}
+.type-16 .box-filter-price .form-range form .rangeslider .ui-rangeslider-sliders .ui-slider-track .ui-slider-bg {
+  background: #FFC851;
+  height: 5px;
+  border-radius: 0px;
+}
+.type-16 .box-filter-price .form-range form .rangeslider .ui-rangeslider-sliders .ui-slider-track .ui-slider-handle {
+  width: 15px;
+  height: 15px;
+  border-radius: 0px;
+  top: 10px;
+  background: #FFC851;
+  border: none;
+  box-shadow: none;
+  text-align: left;
+}
+.type-16 .box-filter-price .form-range form .rangeslider .ui-slider-input {
+  background: none;
+  color: #dce4e8;
+  border: none;
+  box-shadow: none;
+  margin-top: 20px;
+  font-weight: normal;
+}
+.type-16 .box-filter-price .form-range form .rangeslider .ui-slider-input:nth-child(2) {
+  text-align: left;
+}
+.type-16 .box-filter-price .form-range form .rangeslider .ui-slider-input:before {
+  content: '$';
+}
+.type-16 .box-filter-price .form-range form .btn-filter {
+  position: relative;
+}
+.type-16 .box-filter-price .form-range form .btn-filter a {
+  padding: 10px 20px;
+  color: #dce4e8;
+  font-size: 14px;
+  font-family: 'PT Sans Narrow';
+  letter-spacing: 3px;
+  font-weight: normal;
+  border: 2px solid #dce4e8;
+}
+.type-16 .box-filter-price .form-range form .btn-filter a:hover {
+  border: 2px solid #FFC851;
+  text-decoration: none;
+  color: #FFC851;
+}
