@@ -1,0 +1,93 @@
+.type-18{
+    background: #121618;
+    .bao_all{
+        .bao_tieude{
+            display: flex;
+            justify-content: space-around;
+        }
+        .tieude_nho{
+            p{
+                color: white;
+                font-size: 10px;
+                line-height: 28px;
+                letter-spacing: 3px;
+                text-transform: uppercase;
+                padding: 15px 0px;
+                margin: 6px 0 70px;
+            }
+        }
+        .orderby{
+            color: white;
+            background: transparent;
+            border: solid 2px;
+            font-size: 10px;
+            line-height: 28px;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            padding: 9px 9px 8px;
+            margin: 10px 0 0 0;
+        }
+        select option{color: black !important;}
+    }
+    .products{
+        img{
+            border-radius: 50%;
+        }
+        .img_product{
+            position: absolute;
+            top: -65px;
+            z-index: 1;
+            left: 24%;
+        }
+        .content_product{
+            width: 88%;
+            padding: 123px 50px 40px;
+            position: relative;
+            background: #1d2326;
+            color: white;
+            text-align: center;
+            h2{
+                font-size: 25px;
+                line-height: 26px;
+                letter-spacing: 3px;
+                font-weight: 700;
+                margin-bottom: 13px;
+            }
+            p{
+                overflow: hidden;
+                text-overflow: ellipsis;
+                line-height: 27px;
+                max-height: 50px;
+                -webkit-line-clamp: 2;
+                display: -webkit-box;
+                -webkit-box-orient: vertical;
+                font-weight: 400;
+            }
+            .add_to_cart{
+                position: relative;
+                a{
+                    text-decoration: none;
+                    color: white;
+                    display: table;
+                    padding: 10px;
+                    border: 3px solid white;
+                    width: 60%;
+                    margin: 10px auto;
+                    &:hover{
+                        transition: 0.5s all;
+                        color: #ffc851;
+                        border: 3px solid #ffc851;
+                    }
+                }
+                a:after{
+                    content: "\f105";
+                    font-family: "FontAwesome", sans-serif;
+                    font-size: 16px;
+                    position: absolute;
+                    top: 12px;
+                    right: 25%;
+                }
+            }
+        }
+    }
+}
