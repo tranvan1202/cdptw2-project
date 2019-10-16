@@ -1,0 +1,64 @@
+.type-13 {
+  background: #1d2326;
+  font-size: 16px;
+  line-height: 28px;
+  color: #dce4e8;
+  font-family: "PT Sans Narrow";
+  width: 355px;
+  height: 355px;
+}
+.type-13 .title {
+  font-size: 17px;
+  line-height: 18px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-bottom: 35px;
+  padding-left: 12px;
+  margin-top: 30px;
+}
+.type-13 ul {
+  list-style: none outside;
+  padding: 0;
+  margin: 0;
+}
+.type-13 ul li {
+  padding-left: 25px;
+  min-height: 80px;
+  position: relative;
+  padding: 0;
+  margin-bottom: 20px;
+}
+.type-13 ul a {
+  text-decoration: none;
+}
+.type-13 ul img {
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  float: none;
+  margin: 0;
+  top: 0;
+}
+.type-13 ul .product_title:hover {
+  color: orange;
+}
+.type-13 ul .product_title {
+  padding: 13px 0 0 30px;
+  margin-bottom: 3px;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 3px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #dce4e8;
+  cursor: pointer;
+}
+.type-13 ul .price {
+  margin-left: 32px;
+  font-size: 14px;
+  line-height: 28px;
+}
+.type-13 .row {
+  margin-right: -15px;
+  margin-left: -5px;
+}
