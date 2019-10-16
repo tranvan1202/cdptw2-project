@@ -1,0 +1,167 @@
+.type-10 {
+	@font_tieude_menu:'PT Sans Narrow', sans-serif;
+	@font_text_item: 'OpenSans', sans-serif;
+	@bg-title-menu-color: rgba(255,200,81, 0.9);
+	@bg-menu-color: #121618;
+	@color_text_item: #dce4e8;
+	@color_hover: #ffc851;
+
+	@font-face {
+		src: url(../fonts/OpenSans-Light.ttf);
+		font-family: OpenSans;
+	}
+
+	@font-face {
+		src: url(../fonts/PTSansNarrow-Regular);
+		font-family: PT Sans Narrow;
+	}
+	
+	.title-menu {
+		background-image: url(../images/10-bg-title.jpg);
+		width: 100%;
+		text-align: center;
+		height: 240px;
+		background-position: bottom center;
+		background-repeat: no-repeat;
+		position: relative;
+		margin-top: 21px;
+		
+		&::before {
+			background-color: @bg-title-menu-color;
+			display: inline-block;
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			left: 0;
+			top: 0;
+			content: "";
+		}
+
+		.vc_header_menu_line {
+			background-image: linear-gradient(rgba(18,22,24,1), rgba(18,22,24,1)), linear-gradient(-45deg, transparent 75%, rgba(18,22,24,1) 75%), linear-gradient(45deg, transparent 75%, rgba(18,22,24,1) 75%);
+			width: 100%;
+			height: 10px;
+			position: absolute !important;
+			left: 0;
+			border: solid transparent;
+			border-width: 10px 0;
+			background-color: hsla(0, 0%, 0%, 0);
+			background-repeat: repeat, repeat-x, repeat-x, repeat-x, repeat-x;
+			background-position: 0 0, 0 0, 0 0, 0 100%, 0 100%;
+			background-size: auto auto, 15px 15px, 15px 15px, 15px 15px, 15px 15px;
+			background-clip: padding-box, border-box, border-box, border-box, border-box;
+			background-origin: padding-box, border-box, border-box, border-box, border-box;
+			z-index: 100;
+			display: block;
+			
+		}
+
+		.vc_header_menu_text {
+			position: relative;
+			top: 50%;
+			transform: perspective(1px) translateY(-50%);
+			h2{
+				font-size: 32px;
+				line-height: 32px;
+				color: #121618;
+				font-family: @font_tieude_menu;
+				font-weight: 400;
+				text-transform: uppercase;
+				word-wrap: break-word;
+				display: block;
+				letter-spacing: 6px;
+				text-align: center;
+			}
+		}
+	}
+
+	.vincent_prod_cat_container {
+		background-color: @bg-menu-color;
+		overflow: hidden;
+		ul {
+			list-style-type: disc;
+			margin-block-start: 1em;
+			margin-block-end: 1em;
+			margin-inline-start: 0px;
+			margin-inline-end: 0px;
+			padding-inline-start: 40px;
+			font-weight: 300;
+			color: @color_text_item;
+			text-align: center;
+		}
+		li {
+			display: inline-block;
+			cursor: pointer;
+			vertical-align: top;
+			font-size: 18px;
+			line-height: 26px;
+			letter-spacing: 4px;
+			font-weight: 700;
+			text-transform: uppercase;
+			margin: 0 22px;
+			transition: all .3s;
+			font-family: @font_tieude_menu;
+			margin-bottom: 74px;
+			&:hover {
+				color: @color_hover;
+			}
+		}
+	}
+
+	.vincent_prod_output_container {
+		background-color: @bg-menu-color;
+		overflow: hidden;
+		.vc_prod_item_wrapper{
+			.vc_prod_list_image_wrapper{
+				img {
+					width: 70%;
+					height: 70%;
+					display: block;
+					margin-left: auto;
+					margin-right: auto;
+				}
+			}
+			.vc_prod_name{
+				text-align: center;
+				font-family: @font_text_item;
+				margin-bottom: 0;
+				line-height: 24px;
+				font-weight: 700;
+				letter-spacing: 4px;
+				font-size: 18px;
+				display: block;
+				margin-block-start: 1.67em;
+				margin-block-end: 1.67em;
+				margin-inline-start: 0px;
+				margin-inline-end: 0px;
+				text-transform: uppercase;
+				word-wrap: break-word;
+			}
+
+			.vc_prod_mieuta {
+				text-align: center;
+				color: @color_text_item;
+				font-family: @font_text_item;
+				font-size: 14px;
+				line-height: 28px;
+				margin: 18px 0;
+				display: block;
+			}
+
+			.vc_prod_price {
+				text-align: center;
+				color: @color_text_item;
+				font-family: @font_tieude_menu;
+				font-size: 24px;
+				line-height: 26px;
+				letter-spacing: 3px;
+				display: block;
+				margin-block-start: 1em;
+				margin-block-end: 1em;
+				margin-inline-start: 0px;
+				margin-inline-end: 0px;
+			}
+
+		}	
+	}
+}
