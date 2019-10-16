@@ -1,20 +1,30 @@
 .type-18 {
   background: #121618;
 }
-.type-18 .bao_all .bao_tieude {
-  display: flex;
-  justify-content: space-around;
+.type-18 .margin {
+  margin-right: 0px;
+  margin-left: 0px;
 }
-.type-18 .bao_all .tieude_nho p {
+.type-18 .pagination li.active a {
+  background: #121618;
+  color: white;
+  border-color: white;
+}
+.type-18 .bao_tieude {
+  text-align: center;
+}
+.type-18 .bao_tieude p {
   color: white;
   font-size: 10px;
   line-height: 28px;
   letter-spacing: 3px;
   text-transform: uppercase;
   padding: 15px 0px;
-  margin: 6px 0 70px;
 }
-.type-18 .bao_all .orderby {
+.type-18 .form_select {
+  text-align: center;
+}
+.type-18 .form_select .orderby {
   color: white;
   background: transparent;
   border: solid 2px;
@@ -25,34 +35,39 @@
   padding: 9px 9px 8px;
   margin: 10px 0 0 0;
 }
-.type-18 .bao_all select option {
+.type-18 .form_select select option {
   color: black !important;
+}
+.type-18 .products {
+  padding: 100px 0px;
 }
 .type-18 .products img {
   border-radius: 50%;
 }
-.type-18 .products .img_product {
+.type-18 .products .bao_products {
+  position: relative;
+  margin-bottom: 80px;
+}
+.type-18 .products .bao_products .img_product {
   position: absolute;
   top: -65px;
   z-index: 1;
-  left: 24%;
+  left: 28%;
 }
-.type-18 .products .content_product {
-  width: 88%;
+.type-18 .products .bao_products .content_product {
   padding: 123px 50px 40px;
-  position: relative;
   background: #1d2326;
   color: white;
   text-align: center;
 }
-.type-18 .products .content_product h2 {
+.type-18 .products .bao_products .content_product h2 {
   font-size: 25px;
   line-height: 26px;
   letter-spacing: 3px;
   font-weight: 700;
   margin-bottom: 13px;
 }
-.type-18 .products .content_product p {
+.type-18 .products .bao_products .content_product p {
   overflow: hidden;
   text-overflow: ellipsis;
   line-height: 27px;
@@ -62,10 +77,10 @@
   -webkit-box-orient: vertical;
   font-weight: 400;
 }
-.type-18 .products .content_product .add_to_cart {
+.type-18 .products .bao_products .content_product .add_to_cart {
   position: relative;
 }
-.type-18 .products .content_product .add_to_cart a {
+.type-18 .products .bao_products .content_product .add_to_cart a {
   text-decoration: none;
   color: white;
   display: table;
@@ -74,16 +89,21 @@
   width: 60%;
   margin: 10px auto;
 }
-.type-18 .products .content_product .add_to_cart a:hover {
+.type-18 .products .bao_products .content_product .add_to_cart a:hover {
   transition: 0.5s all;
   color: #ffc851;
   border: 3px solid #ffc851;
 }
-.type-18 .products .content_product .add_to_cart a:after {
+.type-18 .products .bao_products .content_product .add_to_cart a:after {
   content: "\f105";
   font-family: "FontAwesome", sans-serif;
   font-size: 16px;
   position: absolute;
   top: 12px;
   right: 25%;
+}
+@media (max-width: 974px) {
+  .type-18 .products img {
+    width: 80%;
+  }
 }
