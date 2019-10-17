@@ -1,15 +1,8 @@
 .type-07 {
+  overflow: hidden;
   text-align: center;
   background-image: url(../images/07-bg.jpg) !important;
   padding-bottom: 5%;
-}
-@font-face {
-  src: url(../fonts/OpenSans-Light.ttf);
-  font-family: OpenSans;
-}
-@font-face {
-  src: url(../fonts/PTSansNarrow-Regular);
-  font-family: PT Sans Narrow;
 }
 .type-07 .text_1 {
   font-family: 'PT Sans Narrow', sans-serif;

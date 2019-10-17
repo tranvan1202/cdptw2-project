@@ -5,17 +5,6 @@
 	@bg-menu-color: #121618;
 	@color_text_item: #dce4e8;
 	@color_hover: #ffc851;
-
-	@font-face {
-		src: url(../fonts/OpenSans-Light.ttf);
-		font-family: OpenSans;
-	}
-
-	@font-face {
-		src: url(../fonts/PTSansNarrow-Regular);
-		font-family: PT Sans Narrow;
-	}
-	
 	.title-menu {
 		background-image: url(../images/10-bg-title.jpg);
 		width: 100%;
@@ -24,7 +13,7 @@
 		background-position: bottom center;
 		background-repeat: no-repeat;
 		position: relative;
-		margin-top: 21px;
+		overflow: hidden;
 		
 		&::before {
 			background-color: @bg-title-menu-color;
@@ -114,8 +103,8 @@
 		.vc_prod_item_wrapper{
 			.vc_prod_list_image_wrapper{
 				img {
-					width: 70%;
-					height: 70%;
+					width: 40%;
+					height: 40%;
 					display: block;
 					margin-left: auto;
 					margin-right: auto;

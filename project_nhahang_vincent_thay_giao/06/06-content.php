@@ -12,7 +12,7 @@ $url_path = $url_host . $matches[1][0];
 $url_path = str_replace('\\', '/', $url_path);
 ?>
 <div class="type-06">
-  <div class="container">
+  <div class="container-fluid">
     <div class="row">
 
       <div class="title-menu">
@@ -52,50 +52,6 @@ $url_path = str_replace('\\', '/', $url_path);
 
         <!-- Chi tiết sản phẩm trong danh mục -->
         <div class="vincent_prod_output_container">
-          <div class="col-md-3 col-xs-6">
-            <div class="vc_prod_item_wrapper">
-              <div class="vc_prod_list_image_wrapper">
-                <img src="images/06-food1" alt=""> 
-              </div>
-              <h5 class="vc_prod_name"><a href="#">Vincent</a></h5>
-              <p class="vc_prod_mieuta">Classic marinara sauce, authentic old-world pepperoni,...</p>
-              <div class="vc_prod_price">$2.60</div>
-            </div>
-          </div>
-
-          <div class="col-md-3 col-xs-6">
-            <div class="vc_prod_item_wrapper">
-              <div class="vc_prod_list_image_wrapper">
-                <img src="images/06-food1" alt=""> 
-              </div>
-              <h5 class="vc_prod_name"><a href="#">Vincent</a></h5>
-              <p class="vc_prod_mieuta">Classic marinara sauce, authentic old-world pepperoni,...</p>
-              <div class="vc_prod_price">$2.60</div>
-            </div>
-          </div>
-
-          <div class="col-md-3 col-xs-6">
-            <div class="vc_prod_item_wrapper">
-              <div class="vc_prod_list_image_wrapper">
-                <img src="images/06-food1" alt=""> 
-              </div>
-              <h5 class="vc_prod_name"><a href="#">Vincent</a></h5>
-              <p class="vc_prod_mieuta">Classic marinara sauce, authentic old-world pepperoni,...</p>
-              <div class="vc_prod_price">$2.60</div>
-            </div>
-          </div>
-
-          <div class="col-md-3 col-xs-6">
-            <div class="vc_prod_item_wrapper">
-              <div class="vc_prod_list_image_wrapper">
-                <img src="images/06-food1" alt=""> 
-              </div>
-              <h5 class="vc_prod_name"><a href="#">Vincent</a></h5>
-              <p class="vc_prod_mieuta">Classic marinara sauce, authentic old-world pepperoni,...</p>
-              <div class="vc_prod_price">$2.60</div>
-            </div>
-          </div>
-
           <div class="col-md-3 col-xs-6">
             <div class="vc_prod_item_wrapper">
               <div class="vc_prod_list_image_wrapper">

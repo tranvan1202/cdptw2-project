@@ -24,8 +24,7 @@ $less->compileFile('less/07.less', 'css/07.css');
 
         <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
         <link href="css/bootstrap-3.3.6.min.css" rel="stylesheet" type="text/css"/>
-        <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300&display=swap" rel="stylesheet">
+        <link href="css/07-fonts.css" rel="stylesheet" type="text/css"/>
         <link href="css/07.css" rel="stylesheet" type="text/css"/>
         <script src="js/jquery-2.1.4.min.js"></script>
         <script src="js/bootstrap-3.3.6.min.js"></script>

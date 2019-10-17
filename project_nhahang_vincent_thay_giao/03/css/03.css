@@ -6,6 +6,7 @@
   background-position: center !important;
   background-repeat: no-repeat !important;
   background-size: cover !important;
+  overflow: hidden;
 }
 .type-03 .vincent_tieuchi_iconbox {
   text-align: center;
@@ -32,7 +33,7 @@
   margin-inline-end: 0px;
 }
 .type-03 .vincent_tieuchi_text p {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'OpenSans', sans-serif;
   text-align: center;
   margin: 18px 0;
   font-size: 15px;
