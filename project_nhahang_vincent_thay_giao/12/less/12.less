@@ -2,69 +2,58 @@
     background: #121618;
     .margin{margin-right: 0px;margin-left:0px;}
     .pagination li.active a{background: #121618;color: white;border-color:white;}
-    .bao_tieude{
+    .tieude{
         text-align: center;
-        p{
-            color: white;
-            font-size: 10px;
-            line-height: 28px;
-            letter-spacing: 3px;
-            text-transform: uppercase;
-            padding: 15px 0px;
-        }
-    }
-    .form_select{
+        color: #dce4e8;
+        font-family: "PT Sans Narrow";
+        font-size: 28px;
+        line-height: 28px;
+        letter-spacing: 3px;
         text-align: center;
-        .orderby{
-            color: white;
-            background: transparent;
-            border: solid 2px;
-            font-size: 10px;
-            line-height: 28px;
-            letter-spacing: 3px;
-            text-transform: uppercase;
-            padding: 9px 9px 8px;
-            margin: 10px 0 0 0;
+        margin-bottom: 57px;
+        h2{
+        font-weight: 400;
+        text-transform: uppercase;
+        word-wrap: break-word;
         }
-        select option{color: black !important;}
     }
     .products{
-        padding: 100px 0px;
+        padding: 63px 0px;
         img{
             border-radius: 50%;
-            width: 52%
+            width: 62%
         }
         .bao_products{
             position: relative;
             margin-bottom: 80px;
             .img_product{
                 position: absolute;
-                top: -65px;
+                top: -58px;
                 z-index: 1;
-                left: 28%;
+                left: 29%;
             }
             .content_product{
         //width: 88%;
-        padding: 123px 50px 40px;
+        padding: 85px 50px 40px;
         background: #1d2326;
         color: white;
         text-align: center;
+        cursor: pointer;
         h2{
-            font-size: 25px;
+            font-size: 20px;
             line-height: 26px;
             letter-spacing: 3px;
             font-weight: 700;
             margin-bottom: 13px;
+            text-transform: uppercase;
+        }
+        h2:hover{
+            color: #ffc851;
         }
         p{
-            overflow: hidden;
-            text-overflow: ellipsis;
+            margin: 0 0 18px;
+            color: #dce4e8 !important;
             line-height: 27px;
-            max-height: 50px;
-            -webkit-line-clamp: 2;
-            display: -webkit-box;
-            -webkit-box-orient: vertical;
-            font-weight: 400;
         }
         .add_to_cart{
             position: relative;
@@ -72,14 +61,13 @@
                 text-decoration: none;
                 color: white;
                 display: table;
-                padding: 10px;
-                border: 3px solid white;
-                width: 60%;
-                margin: 10px auto;
+                padding: 6px 29px 6px 19px;
+                border: 2px solid white;
+                margin: 40px auto;
                 &:hover{
                     transition: 0.5s all;
                     color: #ffc851;
-                    border: 3px solid #ffc851;
+                    border: 2px solid #ffc851;
                 }
             }
             a:after{
@@ -87,10 +75,16 @@
                 font-family: "FontAwesome", sans-serif;
                 font-size: 16px;
                 position: absolute;
-                top: 12px;
-                right: 25%;
+                top: 6px;
+                right: 13%;
             }
         }
+    }
+    .price{
+        font-size: 24px;
+        line-height: 26px;
+        letter-spacing: 3px;
+        margin-bottom: 36px;
     }
 }
 }

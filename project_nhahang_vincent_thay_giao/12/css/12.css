@@ -10,40 +10,26 @@
   color: white;
   border-color: white;
 }
-.type-18 .bao_tieude {
+.type-18 .tieude {
   text-align: center;
-}
-.type-18 .bao_tieude p {
-  color: white;
-  font-size: 10px;
+  color: #dce4e8;
+  font-family: "PT Sans Narrow";
+  font-size: 28px;
   line-height: 28px;
   letter-spacing: 3px;
+  margin-bottom: 57px;
+}
+.type-18 .tieude h2 {
+  font-weight: 400;
   text-transform: uppercase;
-  padding: 15px 0px;
-}
-.type-18 .form_select {
-  text-align: center;
-}
-.type-18 .form_select .orderby {
-  color: white;
-  background: transparent;
-  border: solid 2px;
-  font-size: 10px;
-  line-height: 28px;
-  letter-spacing: 3px;
-  text-transform: uppercase;
-  padding: 9px 9px 8px;
-  margin: 10px 0 0 0;
-}
-.type-18 .form_select select option {
-  color: black !important;
+  word-wrap: break-word;
 }
 .type-18 .products {
-  padding: 100px 0px;
+  padding: 63px 0px;
 }
 .type-18 .products img {
   border-radius: 50%;
-  width: 52%;
+  width: 62%;
 }
 .type-18 .products .bao_products {
   position: relative;
@@ -51,32 +37,32 @@
 }
 .type-18 .products .bao_products .img_product {
   position: absolute;
-  top: -65px;
+  top: -58px;
   z-index: 1;
-  left: 28%;
+  left: 29%;
 }
 .type-18 .products .bao_products .content_product {
-  padding: 123px 50px 40px;
+  padding: 85px 50px 40px;
   background: #1d2326;
   color: white;
   text-align: center;
+  cursor: pointer;
 }
 .type-18 .products .bao_products .content_product h2 {
-  font-size: 25px;
+  font-size: 20px;
   line-height: 26px;
   letter-spacing: 3px;
   font-weight: 700;
   margin-bottom: 13px;
+  text-transform: uppercase;
+}
+.type-18 .products .bao_products .content_product h2:hover {
+  color: #ffc851;
 }
 .type-18 .products .bao_products .content_product p {
-  overflow: hidden;
-  text-overflow: ellipsis;
+  margin: 0 0 18px;
+  color: #dce4e8 !important;
   line-height: 27px;
-  max-height: 50px;
-  -webkit-line-clamp: 2;
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  font-weight: 400;
 }
 .type-18 .products .bao_products .content_product .add_to_cart {
   position: relative;
@@ -85,21 +71,26 @@
   text-decoration: none;
   color: white;
   display: table;
-  padding: 10px;
-  border: 3px solid white;
-  width: 60%;
-  margin: 10px auto;
+  padding: 6px 29px 6px 19px;
+  border: 2px solid white;
+  margin: 40px auto;
 }
 .type-18 .products .bao_products .content_product .add_to_cart a:hover {
   transition: 0.5s all;
   color: #ffc851;
-  border: 3px solid #ffc851;
+  border: 2px solid #ffc851;
 }
 .type-18 .products .bao_products .content_product .add_to_cart a:after {
   content: "\f105";
   font-family: "FontAwesome", sans-serif;
   font-size: 16px;
   position: absolute;
-  top: 12px;
-  right: 25%;
+  top: 6px;
+  right: 13%;
+}
+.type-18 .products .bao_products .price {
+  font-size: 24px;
+  line-height: 26px;
+  letter-spacing: 3px;
+  margin-bottom: 36px;
 }

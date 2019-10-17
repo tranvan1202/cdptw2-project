@@ -37,7 +37,7 @@ $url_path = str_replace('\\', '/', $url_path);
                         <div class="col-md-6 col-sm-6 col-xs-12">
                          <div class="bao_products">
                                 <div class="img_product">
-                                <img src="" onerror="this.src='http://placehold.it/179x179'">   
+                                <img src="./images/1.png" >   
                             </div>
                             <div class="content_product">
                                 <h2>Ale</h2>
@@ -52,7 +52,7 @@ $url_path = str_replace('\\', '/', $url_path);
                         <div class="col-md-6 col-sm-6 col-xs-12">
                             <div class="bao_products">
                                 <div class="img_product">
-                                <img src="" onerror="this.src='http://placehold.it/179x179'">   
+                                <img src="./images/1.png" >
                             </div>
                             <div class="content_product">
                                 <h2>Ale</h2>
@@ -69,7 +69,7 @@ $url_path = str_replace('\\', '/', $url_path);
                         <div class="col-md-6 col-sm-6 col-xs-12">
                          <div class="bao_products">
                                 <div class="img_product">
-                                <img src="" onerror="this.src='http://placehold.it/179x179'">   
+                                <img src="./images/1.png" > 
                             </div>
                             <div class="content_product">
                                 <h2>Ale</h2>
@@ -84,7 +84,7 @@ $url_path = str_replace('\\', '/', $url_path);
                         <div class="col-md-6 col-sm-6 col-xs-12">
                             <div class="bao_products">
                                 <div class="img_product">
-                                <img src="" onerror="this.src='http://placehold.it/179x179'">   
+                                <img src="./images/1.png" >
                             </div>
                             <div class="content_product">
                                 <h2>Ale</h2>
