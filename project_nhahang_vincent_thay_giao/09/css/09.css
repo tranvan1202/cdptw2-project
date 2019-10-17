@@ -23,7 +23,7 @@ footer {
   font-size: 13px;
   opacity: 0.4;
 }
-.type-09 ul {
+.type-09 .listf ul {
   display: block;
   margin: 0;
   padding: 0;
@@ -41,7 +41,7 @@ footer {
   color: #ffffff;
 }
 .type-09 li a:hover {
-  color: orange;
+  color: #ffc851;
 }
 .type-09 img {
   width: 12%;
