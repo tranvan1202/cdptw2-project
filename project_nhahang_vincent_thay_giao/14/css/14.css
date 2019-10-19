@@ -1,0 +1,59 @@
+.type-14 {
+  background: #1d2326;
+  font-family: 'PT Sans Narrow', sans-serif;
+  width: 355px;
+}
+.type-14 .widget_filter_title {
+  color: #dce4e8;
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  margin-bottom: 35px;
+  padding-left: 12px;
+  margin-top: 30px;
+  margin-block-start: 2.33em;
+  margin-block-end: 2.33em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+.type-14 .widget_filter_list ul {
+  list-style: none outside;
+  padding: 0;
+  margin: 0;
+}
+.type-14 .widget_filter_list ul li {
+  padding-left: 25px;
+  min-height: 80px;
+  position: relative;
+  padding: 0;
+  margin-bottom: 20px;
+}
+.type-14 .widget_filter_list ul .filter_list {
+  color: #dce4e8;
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+}
+.type-14 .widget_filter_list ul .filter_list .filter_name {
+  display: inline-block;
+  border: solid 2px;
+  padding: 4px 9px 6px 14px;
+  margin: 0 6px 10px 0;
+  text-decoration: none;
+  color: #dce4e8;
+  font-size: 14px !important;
+  line-height: 26px;
+  letter-spacing: 3px;
+  font-weight: 400;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+.type-14 .widget_filter_list ul .filter_list .filter_name:after {
+  content: "\002022";
+  font-size: 18px;
+  margin-left: 5px;
+}
+.type-14 .widget_filter_list ul .filter_list .filter_name:hover {
+  color: #ffc851;
+}
