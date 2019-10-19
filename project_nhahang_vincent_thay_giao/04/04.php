@@ -21,11 +21,12 @@
 	<title>04</title>
 	<meta charset="utf-8">
      <meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/bootstrap-3.3.7.min.css">
+	<link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+    <link href="css/04-fonts.css" rel="stylesheet" type="text/css"/>
 	<link rel="stylesheet" href="css/04.css">
-    <script src="js/jquery.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/bootstrap-3.3.7.min.js"></script>
 </head>
 <body>
 	<?php include $dir_block.'/04-content.php'; ?> 
