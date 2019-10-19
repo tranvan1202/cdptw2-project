@@ -30,14 +30,6 @@
 	.vincent_prod_cat_container {
 		overflow: hidden;
 		ul {
-			list-style-type: disc;
-			margin-block-start: 1em;
-			margin-block-end: 1em;
-			margin-inline-start: 0px;
-			margin-inline-end: 0px;
-			padding-inline-start: 40px;
-			font-weight: 300;
-			color: @color_text_item;
 			text-align: center;
 		}
 		li {
@@ -53,6 +45,17 @@
 			transition: all .3s;
 			font-family: @font_tieude_menu;
 			margin-bottom: 74px;
+		}
+
+		a {
+			color: @color_text_item;
+			list-style-type: disc;
+			margin-block-start: 1em;
+			margin-block-end: 1em;
+			margin-inline-start: 0px;
+			margin-inline-end: 0px;
+			padding-inline-start: 40px;
+			text-decoration: none;
 			&:hover {
 				color: @color_hover;
 			}
@@ -64,8 +67,9 @@
 		.vc_prod_item_wrapper{
 			.vc_prod_list_image_wrapper{
 				img {
-					width: 40%;
-					height: 40%;
+					width: 180px;
+					height: auto;
+					max-width: 100%;
 					display: block;
 					margin-left: auto;
 					margin-right: auto;
@@ -86,6 +90,13 @@
 				margin-inline-end: 0px;
 				text-transform: uppercase;
 				word-wrap: break-word;
+				a {
+					color: @color_text_item;
+					text-decoration: none;
+					&:hover {
+						color: @color_hover;
+					}
+				}
 			}
 
 			.vc_prod_mieuta {
