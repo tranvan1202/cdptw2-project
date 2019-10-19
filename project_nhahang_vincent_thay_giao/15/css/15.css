@@ -1,0 +1,48 @@
+.type-15 {
+  background: #1D2326;
+  width: 355px;
+}
+.type-15 .box-15 {
+  padding: 40px 38px;
+}
+.type-15 .box-15 .title-15 h6 {
+  font-size: 18px;
+  font-family: 'PT Sans Narrow';
+  color: #dce4e8;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-top: 0px;
+  margin-bottom: 35px;
+}
+.type-15 .box-15 .content-15 ul {
+  list-style: none;
+  padding-left: 0px;
+}
+.type-15 .box-15 .content-15 ul li {
+  padding: 10px 0px;
+  border-bottom: 1px solid #293033;
+  position: relative;
+}
+.type-15 .box-15 .content-15 ul li:last-child {
+  border-bottom: none;
+}
+.type-15 .box-15 .content-15 ul li:before {
+  position: absolute;
+  content: '\f105';
+  font-family: FontAwesome;
+  right: 0px;
+  top: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  color: #fff;
+}
+.type-15 .box-15 .content-15 ul li a {
+  font-size: 16px;
+  font-family: 'OpenSans';
+  color: #dce4e8;
+}
+.type-15 .box-15 .content-15 ul li a:hover {
+  color: #ffc851;
+  text-decoration: none;
+}
