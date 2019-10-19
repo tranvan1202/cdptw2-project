@@ -19,7 +19,7 @@ $url_path = str_replace('\\', '/', $url_path);
                         <div class="col-md-4 col-sm-12 col-xs-12">
                          <div class="bao_products">
                                 <div class="img_product">
-                                <img src="./images/1.png" >   
+                                <img src="./images/1.png" alt="1">   
                             </div>
                             <div class="content_product">
                                 <h2>Capricciosa</h2>
@@ -34,7 +34,7 @@ $url_path = str_replace('\\', '/', $url_path);
                         <div class="col-md-4 col-sm-12 col-xs-12">
                             <div class="bao_products">
                                 <div class="img_product">
-                               <img src="./images/1.png" >   
+                               <img src="./images/1.png" alt="1">   
                             </div>
                             <div class="content_product">
                                 <h2>Capricciosa</h2>
@@ -49,7 +49,7 @@ $url_path = str_replace('\\', '/', $url_path);
                           <div class="col-md-4 col-sm-12 col-xs-12">
                             <div class="bao_products">
                                 <div class="img_product">
-                                <img src="./images/1.png" >s
+                                <img src="./images/1.png" alt="1">s
                             </div>
                             <div class="content_product">
                                 <h2>Capricciosa</h2>

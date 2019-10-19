@@ -15,7 +15,8 @@ $less->compileFile('less/12.less', 'css/12.css');
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
     <title>12</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
