@@ -1,5 +1,6 @@
 .type-02 {
-    @color_hover = #6a99e6;
+    @color_hover = #ffc851;
+    @color_hover_swiper = #937261;
     @font_tieude:'PT Sans Narrow', sans-serif;
     @font_text: 'OpenSans', sans-serif;
     background: url('../images/02-bg.png');
@@ -7,60 +8,26 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    position: relative;
+    margin: 0;
+    padding: 0;
     height: 808px;
-    .swiper-pagination {
-        position: relative;
-    }
+    // .swiper-pagination {
+    //     position: relative;
+    // }
 
     .swiper-container {
-        width: 100%;
-        height: 100%;
-        margin-left: auto;
-        margin-right: auto;
+        margin: 0 auto
     }
 
-    .swiper-button-next {
-        &:hover {
-            border: none;
-            background-color: @color_hover;
-            transition: all 0.5s ease;
-            text-decoration: none;
-        }
-    }
-    .swiper-button-prev {
-        &:hover {
-            border: none;
-            background-color: @color_hover;
-            transition: all 0.5s ease;
-            text-decoration: none;
-        }
-    }
-
-    .swiper-pagination-bullet-active {
-        background: #fff;
-    }
-
-    .slide{
-        font-weight: bold;
-        position: relative;
+    .swiper-slide {
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        padding: 40px 60px;
         .pizza-on-bg {
+            text-align: center;
             position: relative;
             display: block;
-            left: 35%;
-            top: 80px;
-            max-width: 100%;
-            img {
-                width: 500px;
-                height: 500px;
-                max-width: 100%;
-            }
-        }
-
-        .pizza-on-bg-2 {
-            position: relative;
-            display: block;
-            // left: 1357px;
-            // top: 140px;
             img {
                 width: 500px;
                 height: 500px;
@@ -69,13 +36,12 @@
             }
         }
         .mini-title-slide1 {
+            text-align: center;
             position: relative;
             display: block;
-            // left: 1182px;
-            // top: 600px;
-            transform-origin: 50% 50% 0px;
             font-family: @font_tieude;
             text-transform: uppercase;
+            margin-top: 50px;
             h1 {
                 text-align: inherit;
                 color: #fff;
@@ -85,132 +51,137 @@
                 font-size: 40px;
             }
         }
-
-        .mini-title-slide2 {
-            position: relative;
-            display: block;
-            // left: 687px;
-            // top: 272px;
-            transform-origin: 50% 50% 0px;
-            font-weight: 400;
-            text-transform: uppercase;
-
-            h1{
-                font-family: @font_tieude;
-                text-align: inherit;
-                line-height: 60px;
-                letter-spacing: 12px;
-                font-weight: 400;
-                font-size: 60px;
-                color: #fff;
-            }
-            
-        }
-
-        .text-slide-slide2 {
-            position: relative;
-            display: block;
-            // left: 686px;
-            // top: 351px;
-            white-space: normal;
-            width: 350px;
-            height: auto;
-            min-height: 0px;
-            min-width: 0px;
-            max-height: none;
-            max-width: none;
-
-            h2{
-                font-family: @font_tieude;
-                text-transform: uppercase;
-                text-align: inherit;
-                line-height: 30px;
-                letter-spacing: 5px;
-                font-weight: 400;
-                font-size: 30px;
-                color: #FFF;
-            }
-        }
-
-        .line-break {
-            position: relative;
-            display: block;
-            // left: 687px;
-            // top: 397px;
-            border: 2px solid white;
-            width: 550px;
-            
-        }
         .fname-slide-slide1 {
+            text-align: center;
             position: relative;
             display: block;
-            // left: 1097px;
-            // top: 700px;
             font-family: @font_text;
             line-height: 30px;
             letter-spacing: 2px;
             font-weight: 300;
             font-size: 17px;
-            text-align: center;
             text-decoration: none;
             color: #FFF;
-            white-space: normal;
-            width: 350px;
-            height: auto;
-            min-height: 0px;
-            min-width: 0px;
-            max-height: none;
-            max-width: none;
+            word-wrap: break-word;
+            margin-top: 50px;
+            margin-bottom: 50px;
         }
 
-        .fname-slide-slide2 {
-            position: relative;
-            display: block;
-            // left: 686px;
-            // top: 450px;
-            font-family: @font_text;
-            line-height: 30px;
-            letter-spacing: 2px;
-            font-weight: 300;
-            font-size: 17px;
-            text-align: inherit;
+        .slide-2 {
+            margin-top: 50px;
+            padding: 0 0 5px 5px;
+            .content-left {
+                margin-top: 20%;
+                .mini-title-slide2 {
+                    position: relative;
+                    display: block;
+                    font-weight: 400;
+                    text-transform: uppercase;
+                    h1{
+                        font-family: @font_tieude;
+                        line-height: 60px;
+                        letter-spacing: 12px;
+                        font-weight: 400;
+                        font-size: 60px;
+                        color: #fff;
+                    }
+                }
+                .text-slide-slide2 {
+                    position: relative;
+                    display: block;
+                    white-space: normal;
+                    h2{
+                        font-family: @font_tieude;
+                        text-transform: uppercase;
+                        text-align: inherit;
+                        line-height: 30px;
+                        letter-spacing: 5px;
+                        font-weight: 400;
+                        font-size: 30px;
+                        color: #FFF;
+                    }
+                }
+                .line-break {
+                    position: relative;
+                    display: block;
+                    border: 2px solid white;
+                    width: 550px;
+                }
+                .fname-slide-slide2 {
+                    margin-top: 10%;
+                    position: relative;
+                    display: block;
+                    font-family: @font_text;
+                    line-height: 30px;
+                    letter-spacing: 2px;
+                    font-weight: 300;
+                    font-size: 17px;
+                    text-decoration: none;
+                    color: #FFF;
+                    white-space: normal;
+                }
+                .btn-menu{
+                    max-width: 30%;
+                    margin-top: 5%;
+                    position: relative;
+                    display: block;
+                    background-color: rgb(255, 200, 81);
+                    font-family: @font_tieude;
+                    text-transform: uppercase;
+                    cursor: pointer;
+                    box-shadow: none;
+                    box-sizing: border-box;
+                    line-height: 26px;
+                    letter-spacing: 3px;
+                    font-weight: 300;
+                    font-size: 14px;
+                    border-color: rgb(255, 200, 81);
+                    border-style: solid;
+                    border-width: 2px;
+                    border-radius: 0px;
+                    padding: 5px 9px 7px 18px;
+                    color: rgb(18, 22, 24);
+                    white-space: nowrap;
+                    &:hover {
+                        background-color: transparent;
+                        color: @color_hover;
+                    }
+                }
+            }
+            .content-right {
+                .pizza-on-bg-2 {
+                    display: block;
+                    img {
+                        width: 500px;
+                        height: 500px;
+                        max-width: 100%;
+                        height: auto;
+                    }
+                }
+            }
+        }
+    }
+
+    .swiper-button-next {
+        &:hover {
+            border: none;
+            background-color: @color_hover_swiper;
             text-decoration: none;
-            color: #FFF;
-            white-space: normal;
-            width: 555px;
-            height: auto;
-            min-height: 0px;
-            min-width: 0px;
-            max-height: none;
-            max-width: none;
         }
+    }
+    .swiper-button-prev {
+        &:hover {
+            border: none;
+            background-color: @color_hover_swiper;
+            text-decoration: none;
+        }
+    }
 
-        .btn-menu{
-            position: relative;
-            display: block;
-            // left: 847px;
-            // top: 507px;
-            background-color: rgb(255, 200, 81);
-            font-family: @font_tieude;
-            text-transform: uppercase;
-            cursor: pointer;
-            box-shadow: none;
-            box-sizing: border-box;
-            text-align: center;
-            line-height: 26px;
-            letter-spacing: 3px;
-            font-weight: 300;
-            font-size: 14px;
-            border-color: rgb(255, 200, 81);
-            border-style: solid;
-            border-width: 2px;
-            margin: 0px;
-            border-radius: 0px;
-            padding: 5px 9px 7px 18px;
-            color: rgb(18, 22, 24);
-            white-space: nowrap;
-            width: auto;
-            height: auto;
-        }
+    .swiper-pagination-bullet {
+        background: #000;
+        opacity: .7;
+    }
+    .swiper-pagination-bullet-active {
+        background: #fff;
     }
 }

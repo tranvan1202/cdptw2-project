@@ -32,31 +32,47 @@ $url_path = str_replace('\\', '/', $url_path);
 
                     <div class="swiper-slide" data-swiper-autoplay="2000">
                         <div class="slide">
-                            <div class="pizza-on-bg-2">
-                                <img src="images/02-pizza-2.png" alt="">
+                            <div class="container">
+                                <div class="row slide-2">
+                                    <div class="col-md-6 col-sm-6 col-xs-6">
+                                        <div class="content-left">
+                                            <div class="mini-title-slide2">
+                                                <h1>Vincent Pizza.</h1>
+                                            </div>
+                                            <div class="text-slide-slide2">
+                                                <h2>Making people happy</h2>
+                                            </div>
+                                            <hr class="line-break">
+                                            <div class="fname-slide-slide2">
+                                                Italian Pizza With Cherry Tomatoes and Green Basil
+                                            </div>
+                                            <a href="#" type="button" class="btn btn-menu" >
+                                                View Menu
+                                                <i class="fa fa-angle-right"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-6 col-sm-6 col-xs-6">
+                                        <div class="content-right">
+                                            <div class="pizza-on-bg-2">
+                                                <img src="images/02-pizza-2.png" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
                             </div>
-                            <div class="mini-title-slide2">
-                                <h1>Vincent Pizza.</h1>
-                            </div>
-                            <div class="text-slide-slide2">
-                                <h2>Making people happy</h2>
-                            </div>
-                            <hr class="line-break">
-                            <div class="fname-slide-slide2">
-                                Italian Pizza With Cherry Tomatoes and Green Basil
-                            </div>
-                            <button type="button" class="btn btn-menu">
-                                View Menu
-                                <i class="fa fa-angle-right"></i>
-                            </button>
                         </div>
                     </div>
+
                 </div>
 
+                <div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets"></div>
+                <div class="swiper-button-next swiper-button-white"></div>
+                <div class="swiper-button-prev swiper-button-white"></div>
             </div>
-            <div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets"></div>
-            <div class="swiper-button-next swiper-button-white"></div>
-            <div class="swiper-button-prev swiper-button-white"></div>
+            
         </div>
     </div>
 </div>
