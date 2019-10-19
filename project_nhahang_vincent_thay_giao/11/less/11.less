@@ -1,0 +1,130 @@
+.type-11{
+    @radius_img: 50%;
+    background: #121618;
+    .pd0{padding: 100px 0px;}
+    .img_cdsd{
+        width: 100%;
+        height: 10px;
+        position: absolute !important;
+        left: 0;
+        border: solid transparent;
+        border-width: 10px 0;
+        background-color: #121618;
+        background-color: hsla(0, 0%, 0%, 0);
+            background-repeat: repeat, repeat-x, repeat-x, repeat-x, repeat-x;
+            background-position: 0 0, 0 0, 0 0, 0 100%, 0 100%;
+            background-size: auto auto, 15px 15px, 15px 15px, 15px 15px, 15px 15px;
+            background-clip: padding-box, border-box, border-box, border-box, border-box;
+            background-origin: padding-box, border-box, border-box, border-box, border-box;
+            z-index: 100;
+            background-image:linear-gradient(rgba(18,22,24,1), rgba(18,22,24,1)),linear-gradient(-45deg, transparent 75%, rgba(18,22,24,1) 75%),linear-gradient(45deg, transparent 75%, rgba(18,22,24,1) 75%);
+        }
+        img{
+            width: 100%;
+        }
+        .product_detail{
+            width: 100%;
+            text-align: center;
+            height: 240px;
+            position: relative;
+            background: url(../images/bg_title.png) no-repeat center;
+                &:after{
+                    display: inline-block;
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    left: 0;
+                    top: 0;
+                    content: "";
+                    background-color: rgba(255,200,81, 0.9);
+                }
+                h2{
+                    z-index: 1;
+                    color: #121618;
+                    font-size: 40px;
+                    line-height: 40px;
+                    text-transform: uppercase;
+                    letter-spacing: 6px;
+                    position: relative;
+                    top: 50%;
+                    transform: perspective(1px) translateY(-50%);
+                }
+            }
+            .full_img{
+                img{
+                    border-radius: @radius_img;
+                }
+            }
+            .img_nho{
+                display: flex;
+                justify-content: center;
+                padding: 25px 0px;
+                cursor: pointer;
+                img{
+                    border-radius: @radius_img;
+                }
+
+            }
+            .title_Vincent{
+                margin: 20px 0 30px;
+                text-align: left;
+                color: white;
+                h2{
+                    font-size:35px;
+                    letter-spacing: 8px;
+                    text-transform: uppercase;
+                }
+            }
+            .price_vincent{
+                font-size: 32px;
+                line-height: 32px;
+                letter-spacing: 3px;
+                font-weight: 700;
+                color: #ffc851;
+                margin-bottom: 27px;
+            }
+            .content_vincent{
+                padding: 10px 0px;
+                p{
+                    font-size: 16px;
+                    line-height: 28px;
+                    font-weight: 300;
+                    color: #dce4e8;
+                }
+            }
+            .size{
+                select option{ color: black !important; }
+                .form_select_vincent select{
+                    color: white;
+                    height: 38px;
+                    max-width: 100%;
+                    min-width: 75%;
+                    display: inline-block;
+                    background: transparent;
+                    border: solid 2px;
+                    margin-right: 16px;
+                }
+                h4{
+                    color: white;
+                    text-align: left;
+                    font-size: 20px;
+                }
+            }
+            .clear{
+                cursor: pointer;
+             width: 85px;
+             background: #ffc851;
+             border: 2px solid #ffc851;
+             padding: 10px;
+             text-align: center;
+             display: table;
+             float: right;
+             margin: 20px 90px;
+             a{
+                   letter-spacing: 8px;
+                color: #121618;
+                text-decoration: none;
+            }
+        }
+
+    }
