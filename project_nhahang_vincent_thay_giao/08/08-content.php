@@ -13,7 +13,7 @@ $url_path = str_replace('\\', '/', $url_path);
                 <div class="text-tieude">
                     <h1>SUBSCRIBE FOR OUR NEWSLETTER</h1>
                 </div>
-                <form action="" name="dangkymail" class="dangkymail" enctype="multipart/form-data" accept-charset="UTF-8" method="post">
+                <form  name="dangkymail" class="dangkymail" enctype="multipart/form-data" accept-charset="UTF-8" method="post">
                     <input class="input" type="text" name="ten" placeholder="Enter your email..." required="">
                     <input type="submit" value="Đăng Ký" class="dangki">
                 </form>
