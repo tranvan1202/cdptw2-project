@@ -32,6 +32,6 @@ $less->compileFile('less/03.less', 'css/03.css');
     </head>
     <body>
         <?php include '../03/03-content.php'; ?>
-        <script src="js/03.js"></script>
+        <script src="js/app03.js"></script>
     </body>
 </html>
