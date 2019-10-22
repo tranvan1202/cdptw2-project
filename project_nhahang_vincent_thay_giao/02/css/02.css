@@ -60,7 +60,7 @@
   margin-bottom: 50px;
 }
 .type-02 .swiper-slide .slide-2 {
-  margin-top: 50px;
+  margin-top: 5%;
   padding: 0 0 5px 5px;
 }
 .type-02 .swiper-slide .slide-2 .content-left {
@@ -96,13 +96,14 @@
   color: #FFF;
 }
 .type-02 .swiper-slide .slide-2 .content-left .line-break {
-  position: relative;
+  position: absolute;
   display: block;
   border: 2px solid white;
-  width: 550px;
+  width: 90%;
+  margin-top: 3%;
 }
 .type-02 .swiper-slide .slide-2 .content-left .fname-slide-slide2 {
-  margin-top: 10%;
+  margin-top: 15%;
   position: relative;
   display: block;
   font-family: 'OpenSans', sans-serif;
@@ -115,9 +116,9 @@
   white-space: normal;
 }
 .type-02 .swiper-slide .slide-2 .content-left .btn-menu {
-  max-width: 30%;
+  max-width: 100%;
   margin-top: 5%;
-  position: relative;
+  position: absolute;
   display: block;
   background-color: #ffc851;
   font-family: 'PT Sans Narrow', sans-serif;
@@ -143,6 +144,7 @@
 }
 .type-02 .swiper-slide .slide-2 .content-right .pizza-on-bg-2 {
   display: block;
+  position: relative;
 }
 .type-02 .swiper-slide .slide-2 .content-right .pizza-on-bg-2 img {
   width: 500px;

@@ -41,50 +41,15 @@ $url_path = str_replace('\\', '/', $url_path);
             <div class="col-md-3 col-xs-6">
               <div class="vc_prod_item_wrapper">
                 <div class="vc_prod_list_image_wrapper">
-                  <img src="images/06-food1.png" alt=""> 
+                  <a href="#"><img src="images/06-food1.png" alt=""></a> 
                 </div>
                 <h5 class="vc_prod_name"><a href="#">Vincent</a></h5>
                 <p class="vc_prod_mieuta">Classic marinara sauce, authentic old-world pepperoni,...</p>
                 <div class="vc_prod_price">$2.60</div>
               </div>
-            </div>
-
-            <div class="col-md-3 col-xs-6">
-              <div class="vc_prod_item_wrapper">
-                <div class="vc_prod_list_image_wrapper">
-                  <img src="images/06-food1.png" alt=""> 
-                </div>
-                <h5 class="vc_prod_name"><a href="#">Vincent</a></h5>
-                <p class="vc_prod_mieuta">Classic marinara sauce, authentic old-world pepperoni,...</p>
-                <div class="vc_prod_price">$2.60</div>
-              </div>
-            </div>
-
-            <div class="col-md-3 col-xs-6">
-              <div class="vc_prod_item_wrapper">
-                <div class="vc_prod_list_image_wrapper">
-                  <img src="images/06-food1.png" alt=""> 
-                </div>
-                <h5 class="vc_prod_name"><a href="#">Vincent</a></h5>
-                <p class="vc_prod_mieuta">Classic marinara sauce, authentic old-world pepperoni,...</p>
-                <div class="vc_prod_price">$2.60</div>
-              </div>
-            </div>
-
-            <div class="col-md-3 col-xs-6">
-              <div class="vc_prod_item_wrapper">
-                <div class="vc_prod_list_image_wrapper">
-                  <img src="images/06-food1.png" alt=""> 
-                </div>
-                <h5 class="vc_prod_name"><a href="#">Vincent</a></h5>
-                <p class="vc_prod_mieuta">Classic marinara sauce, authentic old-world pepperoni,...</p>
-                <div class="vc_prod_price">$2.60</div>
-              </div>
-            </div>
-            
+            </div> 
           </div>
         </div>
-
       </div>
     </div>
   </div>
