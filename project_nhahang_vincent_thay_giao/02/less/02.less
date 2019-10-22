@@ -1,3 +1,51 @@
+@-webkit-keyframes floatPizza1 {.pizza-on-bg-frames-1;}
+@keyframes floatPizza1 {.pizza-on-bg-frames-1;}
+@-webkit-keyframes floatVC1 {.title-slide-frames-1;}
+@keyframes floatVC1 {.title-slide-frames-1;}
+@-webkit-keyframes floatName1 {.name-slide-frames-1;}
+@keyframes floatName1 {.name-slide-frames-1;}
+@-webkit-keyframes floatPizza2 {.pizza-on-bg-frames-2;}
+@keyframes floatPizza2 {.pizza-on-bg-frames-2;}
+@-webkit-keyframes floatVC2 {.title-slide-frames-2;}
+@keyframes floatVC2 {.title-slide-frames-2;}
+@-webkit-keyframes floatText2 {.text-slide-frames-2;}
+@keyframes floatText2 {.text-slide-frames-2;}
+@-webkit-keyframes floatName2 {.name-slide-frames-2;}
+@keyframes floatName {.name-slide-frames-2;}
+@-webkit-keyframes floatButton2 {.btn-slide-frames-2;}
+@keyframes floatButton2 {.btn-slide-frames-2;}
+.pizza-on-bg-frames-1 () {
+    from {top: -200px; opacity: 0;}
+    to {top: 10px;opacity: 1;}
+}
+.title-slide-frames-1 {
+    from {left: -50px;opacity: 0;}
+    to {left: 10px;opacity: 1;}
+}
+.name-slide-frames-1 {
+    from {right: -50px;opacity: 0;}
+    to {right: 10px;opacity: 1;}
+}
+.pizza-on-bg-frames-2 {
+    from {right: -400px;opacity: 0;}
+    to {right: 10px;opacity: 1;}
+}
+.title-slide-frames-2 {
+    from {top: -450px;opacity: 0;}
+    to {top: 10px;opacity: 1;}
+}
+.text-slide-frames-2 {
+    from {left: -2000px;opacity: 0;}
+    to {left: 10px;opacity: 1;}
+}
+.name-slide-frames-2 {
+    from {bottom: -100px;opacity: 0;}
+    to {bottom: 10px;opacity: 1;}
+}
+.btn-slide-frames-2 {
+    from {bottom: -150px;opacity: 0;}
+    to {bottom: -50px;opacity: 1;}
+}
 .type-02 {
     @color_hover = #ffc851;
     @color_hover_swiper = #937261;
@@ -12,18 +60,94 @@
     margin: 0;
     padding: 0;
     height: 808px;
-    // .swiper-pagination {
-    //     position: relative;
-    // }
 
     .swiper-container {
         margin: 0 auto
     }
+    .swiper-slide-active {
+        .pizza-on-bg {
+            img {
+                position: relative;
+                -webkit-animation: floatPizza1 0.5s  normal ease-out;
+                animation: floatPizza1 0.5s normal ease-out;
+                
+            }
+        }
+        .mini-title-slide1 {
+            h1 {
+                position: relative;
+                -webkit-animation: floatVC1 0.5s normal ease-out;
+                animation: floatVC1 0.5s normal ease-out;
+                animation-delay: 0.5s;
+                animation-fill-mode: both;
+            }
+        }
+        .fname-slide-slide1 {
+            position: relative;
+            -webkit-animation: floatName1 0.5s  normal ease-out;
+            animation: floatName1 0.5s normal ease-out;
+            animation-delay: 1s;
+            animation-fill-mode: both;
+        }
 
+        .slide-2 {
+            .content-left {
+                .mini-title-slide2 {
+                    h1{
+                        position: relative;
+                        -webkit-animation: floatVC2 0.5s normal ease-out;
+                        animation: floatVC2 0.5s normal ease-out;
+                        animation-delay: 0.5s;
+                        animation-fill-mode: both;
+                    }
+                }
+                .text-slide-slide2 {
+                    h2{
+                        position: relative;
+                        -webkit-animation: floatText2 0.5s normal ease-out;
+                        animation: floatText2 0.5s normal ease-out;
+                        animation-delay: 1s;
+                        animation-fill-mode: both;
+                    }
+                }
+                .line-break {
+                    position: relative;
+                    -webkit-animation: floatText2 0.5s  normal ease-out;
+                    animation: floatText2 0.5s normal ease-out;
+                    animation-delay: 1s;
+                    animation-fill-mode: both;
+                }
+                .fname-slide-slide2 {
+                    position: relative;
+                    -webkit-animation: floatName2 0.5s normal ease-out;
+                    animation: floatName2 0.5s normal ease-out;
+                    animation-delay: 1.5s;
+                    animation-fill-mode: both;
+                }
+                .btn-menu{
+                    position: relative;
+                    -webkit-animation: floatButton2 0.5s normal ease-out;
+                    animation: floatButton2 0.5s normal ease-out;
+                    animation-delay: 1.5s;
+                    animation-fill-mode: both;
+                }
+            }
+            .content-right {
+                .pizza-on-bg-2 {
+                    img {
+                        position:relative;
+                        -webkit-animation: floatPizza2 0.5s normal ease-out;
+                        animation: floatPizza2 0.5s normal ease-out; 
+                    }
+                }
+            }
+        }
+    }
     .swiper-slide {
         -webkit-box-sizing: border-box;
         box-sizing: border-box;
         padding: 40px 60px;
+
         .pizza-on-bg {
             text-align: center;
             position: relative;
@@ -84,6 +208,7 @@
                         font-weight: 400;
                         font-size: 60px;
                         color: #fff;
+                        margin-bottom: 10%;
                     }
                 }
                 .text-slide-slide2 {
@@ -185,5 +310,24 @@
     }
     .swiper-pagination-bullet-active {
         background: #fff;
+    }
+
+    .swiper-button-prev.swiper-button-white {
+        background-image: url(../images/02-left_nav.png);
+        background-size: 30px 27px;
+        max-width: 100%;
+        width: 40px;
+        height: 40px;
+        position:absolute;
+        display: block;
+    }
+    .swiper-button-next.swiper-button-white {
+        background-image: url(../images/02-right_nav.png);
+        background-size: 30px 27px;
+        max-width: 100%;
+        width: 40px;
+        height: 40px;
+        position:absolute;
+        display: block;
     }
 }

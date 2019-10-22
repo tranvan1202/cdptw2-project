@@ -46,7 +46,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                             <div class="fname-slide-slide2">
                                                 Italian Pizza With Cherry Tomatoes and Green Basil
                                             </div>
-                                            <a href="#" type="button" class="btn btn-menu" >
+                                            <a href="#" class="btn btn-menu" >
                                                 View Menu
                                                 <i class="fa fa-angle-right"></i>
                                             </a>

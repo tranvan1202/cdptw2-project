@@ -1,3 +1,219 @@
+@-webkit-keyframes floatPizza1 {
+  from {
+    top: -200px;
+    opacity: 0;
+  }
+  to {
+    top: 10px;
+    opacity: 1;
+  }
+}
+@keyframes floatPizza1 {
+  from {
+    top: -200px;
+    opacity: 0;
+  }
+  to {
+    top: 10px;
+    opacity: 1;
+  }
+}
+@-webkit-keyframes floatVC1 {
+  from {
+    left: -50px;
+    opacity: 0;
+  }
+  to {
+    left: 10px;
+    opacity: 1;
+  }
+}
+@keyframes floatVC1 {
+  from {
+    left: -50px;
+    opacity: 0;
+  }
+  to {
+    left: 10px;
+    opacity: 1;
+  }
+}
+@-webkit-keyframes floatName1 {
+  from {
+    right: -50px;
+    opacity: 0;
+  }
+  to {
+    right: 10px;
+    opacity: 1;
+  }
+}
+@keyframes floatName1 {
+  from {
+    right: -50px;
+    opacity: 0;
+  }
+  to {
+    right: 10px;
+    opacity: 1;
+  }
+}
+@-webkit-keyframes floatPizza2 {
+  from {
+    right: -400px;
+    opacity: 0;
+  }
+  to {
+    right: 10px;
+    opacity: 1;
+  }
+}
+@keyframes floatPizza2 {
+  from {
+    right: -400px;
+    opacity: 0;
+  }
+  to {
+    right: 10px;
+    opacity: 1;
+  }
+}
+@-webkit-keyframes floatVC2 {
+  from {
+    top: -450px;
+    opacity: 0;
+  }
+  to {
+    top: 10px;
+    opacity: 1;
+  }
+}
+@keyframes floatVC2 {
+  from {
+    top: -450px;
+    opacity: 0;
+  }
+  to {
+    top: 10px;
+    opacity: 1;
+  }
+}
+@-webkit-keyframes floatText2 {
+  from {
+    left: -2000px;
+    opacity: 0;
+  }
+  to {
+    left: 10px;
+    opacity: 1;
+  }
+}
+@keyframes floatText2 {
+  from {
+    left: -2000px;
+    opacity: 0;
+  }
+  to {
+    left: 10px;
+    opacity: 1;
+  }
+}
+@-webkit-keyframes floatName2 {
+  from {
+    bottom: -100px;
+    opacity: 0;
+  }
+  to {
+    bottom: 10px;
+    opacity: 1;
+  }
+}
+@keyframes floatName {
+  from {
+    bottom: -100px;
+    opacity: 0;
+  }
+  to {
+    bottom: 10px;
+    opacity: 1;
+  }
+}
+@-webkit-keyframes floatButton2 {
+  from {
+    bottom: -150px;
+    opacity: 0;
+  }
+  to {
+    bottom: -50px;
+    opacity: 1;
+  }
+}
+@keyframes floatButton2 {
+  from {
+    bottom: -150px;
+    opacity: 0;
+  }
+  to {
+    bottom: -50px;
+    opacity: 1;
+  }
+}
+.title-slide-frames-1 from {
+  left: -50px;
+  opacity: 0;
+}
+.title-slide-frames-1 to {
+  left: 10px;
+  opacity: 1;
+}
+.name-slide-frames-1 from {
+  right: -50px;
+  opacity: 0;
+}
+.name-slide-frames-1 to {
+  right: 10px;
+  opacity: 1;
+}
+.pizza-on-bg-frames-2 from {
+  right: -400px;
+  opacity: 0;
+}
+.pizza-on-bg-frames-2 to {
+  right: 10px;
+  opacity: 1;
+}
+.title-slide-frames-2 from {
+  top: -450px;
+  opacity: 0;
+}
+.title-slide-frames-2 to {
+  top: 10px;
+  opacity: 1;
+}
+.text-slide-frames-2 from {
+  left: -2000px;
+  opacity: 0;
+}
+.text-slide-frames-2 to {
+  left: 10px;
+  opacity: 1;
+}
+.name-slide-frames-2 from {
+  bottom: -100px;
+  opacity: 0;
+}
+.name-slide-frames-2 to {
+  bottom: 10px;
+  opacity: 1;
+}
+.btn-slide-frames-2 from {
+  bottom: -150px;
+  opacity: 0;
+}
+.btn-slide-frames-2 to {
+  bottom: -50px;
+  opacity: 1;
+}
 .type-02 {
   background: url('../images/02-bg.png');
   background-position: center center;
@@ -11,6 +227,65 @@
 }
 .type-02 .swiper-container {
   margin: 0 auto;
+}
+.type-02 .swiper-slide-active .pizza-on-bg img {
+  position: relative;
+  -webkit-animation: floatPizza1 0.5s normal ease-out;
+  animation: floatPizza1 0.5s normal ease-out;
+}
+.type-02 .swiper-slide-active .mini-title-slide1 h1 {
+  position: relative;
+  -webkit-animation: floatVC1 0.5s normal ease-out;
+  animation: floatVC1 0.5s normal ease-out;
+  animation-delay: 0.5s;
+  animation-fill-mode: both;
+}
+.type-02 .swiper-slide-active .fname-slide-slide1 {
+  position: relative;
+  -webkit-animation: floatName1 0.5s normal ease-out;
+  animation: floatName1 0.5s normal ease-out;
+  animation-delay: 1s;
+  animation-fill-mode: both;
+}
+.type-02 .swiper-slide-active .slide-2 .content-left .mini-title-slide2 h1 {
+  position: relative;
+  -webkit-animation: floatVC2 0.5s normal ease-out;
+  animation: floatVC2 0.5s normal ease-out;
+  animation-delay: 0.5s;
+  animation-fill-mode: both;
+}
+.type-02 .swiper-slide-active .slide-2 .content-left .text-slide-slide2 h2 {
+  position: relative;
+  -webkit-animation: floatText2 0.5s normal ease-out;
+  animation: floatText2 0.5s normal ease-out;
+  animation-delay: 1s;
+  animation-fill-mode: both;
+}
+.type-02 .swiper-slide-active .slide-2 .content-left .line-break {
+  position: relative;
+  -webkit-animation: floatText2 0.5s normal ease-out;
+  animation: floatText2 0.5s normal ease-out;
+  animation-delay: 1s;
+  animation-fill-mode: both;
+}
+.type-02 .swiper-slide-active .slide-2 .content-left .fname-slide-slide2 {
+  position: relative;
+  -webkit-animation: floatName2 0.5s normal ease-out;
+  animation: floatName2 0.5s normal ease-out;
+  animation-delay: 1.5s;
+  animation-fill-mode: both;
+}
+.type-02 .swiper-slide-active .slide-2 .content-left .btn-menu {
+  position: relative;
+  -webkit-animation: floatButton2 0.5s normal ease-out;
+  animation: floatButton2 0.5s normal ease-out;
+  animation-delay: 1.5s;
+  animation-fill-mode: both;
+}
+.type-02 .swiper-slide-active .slide-2 .content-right .pizza-on-bg-2 img {
+  position: relative;
+  -webkit-animation: floatPizza2 0.5s normal ease-out;
+  animation: floatPizza2 0.5s normal ease-out;
 }
 .type-02 .swiper-slide {
   -webkit-box-sizing: border-box;
@@ -79,6 +354,7 @@
   font-weight: 400;
   font-size: 60px;
   color: #fff;
+  margin-bottom: 10%;
 }
 .type-02 .swiper-slide .slide-2 .content-left .text-slide-slide2 {
   position: relative;
@@ -168,4 +444,22 @@
 }
 .type-02 .swiper-pagination-bullet-active {
   background: #fff;
+}
+.type-02 .swiper-button-prev.swiper-button-white {
+  background-image: url(../images/02-left_nav.png);
+  background-size: 30px 27px;
+  max-width: 100%;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  display: block;
+}
+.type-02 .swiper-button-next.swiper-button-white {
+  background-image: url(../images/02-right_nav.png);
+  background-size: 30px 27px;
+  max-width: 100%;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  display: block;
 }
