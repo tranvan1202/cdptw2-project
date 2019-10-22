@@ -24,7 +24,7 @@
         <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
         <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
         <link href="<?php echo $url_path ?>/css/001.css" rel="stylesheet" type="text/css"/>
-        <link rel="stylesheet" href="css/jquery.mmenu.all.css">
+        <link href="<?php echo $url_path ?>/css/fonts.css" rel="stylesheet" type="text/css"/>
         <script src="<?php echo $url_path ?>/js/jquery.min.js" ></script>
         <script src="<?php echo $url_path ?>/js/bootstrap.min.js"></script>
         <script src="js/jquery-3.3.1.min.js"></script>
@@ -32,20 +32,5 @@
     </head>
     <body>
         <?php include $dir_block.'/001-content.php'; ?>
-        <script language="javascript" type="text/javascript" src="js/jquery.mmenu.all.min.js"></script>
-        <script  type="text/javascript">
-          $("#menu_bootstrap").mmenu({
-           "extensions": [
-           "pagedim-black"
-           ]
-         });
-          var api_mmenu=$("#menu_bootstrap").data('mmenu');
-          api_mmenu.bind('opened', function () {
-            $('#btn_menu_bootstrap').addClass('move_btn_bootstrap');
-          });
-          api_mmenu.bind('closed', function () {
-            $('#btn_menu_bootstrap').removeClass('move_btn_bootstrap');
-          });
-        </script>
     </body>
 </html>
