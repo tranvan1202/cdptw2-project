@@ -1,0 +1,9 @@
+@font-face {
+	src: url(../fonts/OpenSans-Light.ttf);
+	font-family: OpenSans;
+}
+
+@font-face {
+	src: url(../fonts/PTSansNarrow-Regular.ttf);
+	font-family: PT Sans Narrow;
+}

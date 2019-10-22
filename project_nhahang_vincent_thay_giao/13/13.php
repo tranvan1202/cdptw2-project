@@ -20,11 +20,12 @@ $less->compileFile('less/13.less', 'css/13.css');
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>13</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-3.3.7.min.css">
     <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+    <link href="css/09-fonts.css" rel="stylesheet" type="text/css"/>
     <link href="css/13.css" rel="stylesheet" type="text/css"/>
-    <script src="js/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-2.2.1.min.js"></script>
+    <script src="js/bootstrap-3.3.6.min.js"></script>
 
 </head>
 <body>

@@ -95,3 +95,8 @@
   text-decoration: none;
   font-family: 'PT Sans Narrow', sans-serif;
 }
+.type-07 .blog_wrapper .btn-read-more:hover {
+  color: #fff;
+  background: #000;
+  border-color: #000;
+}
