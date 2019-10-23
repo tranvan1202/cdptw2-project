@@ -51,7 +51,13 @@
 }
 @media only screen and (max-width: 991px) {
   .type-08 form input[type=submit] {
-    bottom: 21.5%;
+    bottom: 24.5%;
+    right: 23.9%;
+  }
+}
+@media only screen and (max-width: 744px) {
+  .type-08 form input[type=submit] {
+    bottom: 24.5%;
     right: 23.9%;
   }
 }

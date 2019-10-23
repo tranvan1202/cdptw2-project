@@ -14,23 +14,23 @@
     }
 
     $less = new lessc;
-    $less->compileFile('less/001.less', 'css/001.css');
+    $less->compileFile('less/01.less', 'css/01.css');
 
 ?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>001</title>
+        <title>01</title>
         <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
         <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
-        <link href="<?php echo $url_path ?>/css/001.css" rel="stylesheet" type="text/css"/>
+        <link href="<?php echo $url_path ?>/css/01.css" rel="stylesheet" type="text/css"/>
         <link href="<?php echo $url_path ?>/css/fonts.css" rel="stylesheet" type="text/css"/>
         <script src="<?php echo $url_path ?>/js/jquery.min.js" ></script>
         <script src="<?php echo $url_path ?>/js/bootstrap.min.js"></script>
         <script src="js/jquery-3.3.1.min.js"></script>
-        <script src="js/001.js"></script>
+        <script src="js/01.js"></script>
     </head>
     <body>
-        <?php include $dir_block.'/001-content.php'; ?>
+        <?php include $dir_block.'/01-content.php'; ?>
     </body>
 </html>
