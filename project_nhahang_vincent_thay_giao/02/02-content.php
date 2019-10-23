@@ -17,50 +17,77 @@ $url_path = str_replace('\\', '/', $url_path);
             <div class="swiper-container">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide"  data-swiper-autoplay="2000">
-                        <div class="slide">
-                            <div class="pizza-on-bg">
-                                <img src="images/02-pizza.png" alt="">
-                            </div>
-                            <div class="mini-title-slide1">
-                                <h1>Vincent</h1>
-                            </div>
-                            <div class="fname-slide-slide1">
-                                Italian Pizza With Cherry Tomatoes and Green Basil
+                        <div class="slide-1">
+                            <div class="swiper-lazy" data-background="./images/02-bg.png">
+                                <!-- <div class="swiper-lazy-preloader"></div> -->
+                                <div class="pizza-on-bg">
+                                    <img src="images/02-pizza.png" alt="">
+                                </div>
+                                <div class="mini-title-slide1">
+                                    <h1>Vincent</h1>
+                                </div>
+                                <div class="fname-slide-slide1">
+                                    Italian Pizza With Cherry Tomatoes and Green Basil
+                                </div>
                             </div>
                         </div>
                     </div>
 
                     <div class="swiper-slide" data-swiper-autoplay="2000">
-                        <div class="slide">
-                            <div class="container">
-                                <div class="row slide-2">
-                                    <div class="col-md-6 col-sm-6 col-xs-6">
-                                        <div class="content-left">
-                                            <div class="mini-title-slide2">
-                                                <h1>Vincent Pizza.</h1>
-                                            </div>
-                                            <div class="text-slide-slide2">
-                                                <h2>Making people happy</h2>
-                                            </div>
-                                            <hr class="line-break">
-                                            <div class="fname-slide-slide2">
-                                                Italian Pizza With Cherry Tomatoes and Green Basil
-                                            </div>
-                                            <a href="#" class="btn btn-menu" >
-                                                View Menu
-                                                <i class="fa fa-angle-right"></i>
-                                            </a>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-md-6 col-sm-6 col-xs-6">
-                                        <div class="content-right">
-                                            <div class="pizza-on-bg-2">
-                                                <img src="images/02-pizza-2.png" alt="">
+                        <div class="slide-2">
+                            <div class="swiper-lazy" data-background="./images/02-bg.png">
+                                <div class="container">
+                                    <!-- <div class="swiper-lazy-preloader"></div> -->
+                                    <div class="row">
+                                        <div class="col-md-6 col-sm-6 col-xs-6">
+                                            <div class="content-left">
+                                                <div class="mini-title-slide2">
+                                                    <h1>Vincent Pizza.</h1>
+                                                </div>
+                                                <div class="text-slide-slide2">
+                                                    <h2>Making people happy</h2>
+                                                </div>
+                                                <hr class="line-break">
+                                                <div class="fname-slide-slide2">
+                                                    Italian Pizza With Cherry Tomatoes and Green Basil
+                                                </div>
+                                                <a href="#" class="btn btn-menu" >
+                                                    View Menu
+                                                    <i class="fa fa-angle-right"></i>
+                                                </a>
                                             </div>
                                         </div>
-                                    </div>
 
+                                        <div class="col-md-6 col-sm-6 col-xs-6">
+                                            <div class="content-right">
+                                                <div class="pizza-on-bg-2">
+                                                    <img src="images/02-pizza-2.png" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide" data-swiper-autoplay="2000">
+                        <div class="slide-3">
+                            <div class="swiper-lazy" data-background="./images/02-bg2.png">
+                                <div class="container-fluid">
+                                    <div class="text-slide-slide3">
+                                        <h2>Making people happy</h2>
+                                    </div>
+                                    <div class="mini-title-slide3">
+                                        <h1>Vincent Pizza.</h1>
+                                    </div>
+                                    <div class="fname-slide-slide3">
+                                        Italian Pizza With Cherry Tomatoes and Green Basil
+                                    </div>
+                                    <a href="#" class="btn btn-menu-slide-3" >
+                                        Shop Now
+                                        <i class="fa fa-angle-right"></i>
+                                    </a>
                                 </div>
                             </div>
                         </div>
