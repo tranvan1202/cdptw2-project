@@ -1,16 +1,17 @@
 <div class="vincent_prod_output_container">
     <div ng-init="displayData()">
         <div class="row">
-        <div class="col-md-3 col-xs-6" ng-repeat="dessert in desserts">
-            <div class="vc_prod_item_wrapper">
-            <div class="vc_prod_list_image_wrapper">
-                <img src="images/{{dessert.img}}" alt=""> 
-            </div>
-            <h5 class="vc_prod_name"><a href="#">{{dessert.name}}</a></h5>
-            <p class="vc_prod_mieuta">{{dessert.des}}</p>
-            <div class="vc_prod_price">$ {{dessert.price}}</div>
-            </div>
-        </div>
-        </div>
-    </div>
+            <div class="col-md-3 col-xs-6" ng-repeat="dessert in desserts">
+                <div class="vc_prod_item_wrapper">
+                    <div class="vc_prod_list_image_wrapper">
+                       <a href="#"><img src="images/{{dessert.img}}" alt=""></a> 
+                   </div>
+                   <h5 class="vc_prod_name"><a href="#">{{dessert.name}}</a></h5>
+                   <p class="vc_prod_mieuta">{{dessert.des}}</p>
+                   <div class="vc_prod_price">$ {{dessert.price}}</div>
+               </div>
+           </div>
+       </div>
+   </div>
 </div>
+

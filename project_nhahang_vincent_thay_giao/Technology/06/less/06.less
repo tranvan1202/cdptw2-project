@@ -8,51 +8,49 @@
 	background-color: @bg-color;
 	.title-menu {
 		margin-top: 100px;
+		margin-bottom: 39px !important;
+		text-align: center;
 		h2{
-			margin-bottom: 39px !important;
 			font-size: 32px;
 			line-height: 32px;
-			color: #dce4e8;
+			color: @color_text_item;
 			font-family: @font_tieude_menu;
 			font-weight: 400;
 			text-transform: uppercase;
 			word-wrap: break-word;
-			display: block;		
-			margin-block-start: 0.83em;
-			margin-block-end: 0.83em;
-			margin-inline-start: 0px;
-			margin-inline-end: 0px;
+			display: block;
 			letter-spacing: 6px;
-			text-align: center;
 		}
 	}
 
 	.vincent_prod_cat_container {
 		overflow: hidden;
 		ul {
+			text-align: center;
+			padding-inline-start: 0px;
+			li {
+				display: inline-block;
+				cursor: pointer;
+				vertical-align: top;
+				font-size: 18px;
+				line-height: 26px;
+				letter-spacing: 4px;
+				font-weight: 700;
+				text-transform: uppercase;
+				font-family: @font_tieude_menu;
+				margin-bottom: 74px;
+			}
+		}
+		
+		a {
+			color: @color_text_item;
 			list-style-type: disc;
 			margin-block-start: 1em;
 			margin-block-end: 1em;
 			margin-inline-start: 0px;
 			margin-inline-end: 0px;
 			padding-inline-start: 40px;
-			font-weight: 300;
-			color: @color_text_item;
-			text-align: center;
-		}
-		li {
-			display: inline-block;
-			cursor: pointer;
-			vertical-align: top;
-			font-size: 18px;
-			line-height: 26px;
-			letter-spacing: 4px;
-			font-weight: 700;
-			text-transform: uppercase;
-			margin: 0 22px;
-			transition: all .3s;
-			font-family: @font_tieude_menu;
-			margin-bottom: 74px;
+			text-decoration: none;
 			&:hover {
 				color: @color_hover;
 			}
@@ -63,12 +61,23 @@
 		overflow: hidden;
 		.vc_prod_item_wrapper{
 			.vc_prod_list_image_wrapper{
-				img {
-					width: 40%;
-					height: 40%;
-					display: block;
-					margin-left: auto;
-					margin-right: auto;
+				text-align: center;
+				display: block;
+				position: relative;
+				a {
+					&:hover {
+						display:inline-block;    
+						background: @color_hover;
+						border-radius: 50%;
+					}
+					img {
+						width: 180px;
+						max-width: 100%;
+						display: inline-block;
+						&:hover {
+							opacity:0.5;
+						}
+					}
 				}
 			}
 			.vc_prod_name{
@@ -86,6 +95,13 @@
 				margin-inline-end: 0px;
 				text-transform: uppercase;
 				word-wrap: break-word;
+				a {
+					color: @color_text_item;
+					text-decoration: none;
+					&:hover {
+						color: @color_hover;
+					}
+				}
 			}
 
 			.vc_prod_mieuta {
@@ -111,7 +127,6 @@
 				margin-inline-start: 0px;
 				margin-inline-end: 0px;
 			}
-
 		}	
 	}
 }
