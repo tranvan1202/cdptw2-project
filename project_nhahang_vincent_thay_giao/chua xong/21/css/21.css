@@ -1,0 +1,50 @@
+.type-21 {
+  font-family: 'OpenSans', sans-serif;
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 300;
+  color: #dce4e8;
+  background-color: #121618;
+}
+.type-21 label {
+  line-height: 2;
+}
+.type-21 h3 {
+  letter-spacing: 5px;
+  font-size: 35px;
+  line-height: 30px;
+  color: #dce4e8;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  word-wrap: break-word;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+.type-21 .checkout-form .right-content {
+  float: right;
+  width: 48%;
+}
+.type-21 .checkout-form .right-content .vc-additional-fields_field-wrapper .form-row .input-additional textarea {
+  resize: none;
+}
+.type-21 .checkout-form .right-content .vc-additional-fields_field-wrapper .form-row .input-additional .input-text {
+  font-family: 'PT Sans Narrow', sans-serif;
+  position: relative;
+  background: transparent;
+  border: 2px solid #1d2326;
+  font-size: 14px;
+  letter-spacing: 3px;
+  vertical-align: top;
+  padding: 5px 15px 7px;
+  margin-bottom: 20px !important;
+  height: 4em;
+  line-height: 1.5;
+  display: block;
+  box-shadow: none;
+  border-color: #1d2326;
+  width: 100%;
+}
