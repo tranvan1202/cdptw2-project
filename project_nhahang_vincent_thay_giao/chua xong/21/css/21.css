@@ -9,9 +9,41 @@
 .type-21 label {
   line-height: 2;
 }
+.type-21 .table-bordered,
+.type-21 .table-responsive,
+.type-21 .table-bordered>tbody>tr>td,
+.type-21 .table-bordered>tbody>tr>th,
+.type-21 .table-bordered>tfoot>tr>td,
+.type-21 .table-bordered>tfoot>tr>th,
+.type-21 .table-bordered>thead>tr>td,
+.type-21 .table-bordered>thead>tr>th {
+  border: 1px solid #252c30;
+}
+.type-21 select {
+  border: solid 2px #dce4e8 !important;
+  line-height: 38px;
+  background: #121618 !important;
+}
+.type-21 input[type="text"],
+.type-21 textarea,
+.type-21 input[type="tel"],
+.type-21 input[type="email"],
+.type-21 select {
+  background: transparent;
+  border: 2px solid #1d2326;
+  width: 100%;
+  font-size: 14px;
+  line-height: 26px;
+  letter-spacing: 3px;
+  vertical-align: top;
+  padding: 5px 15px 7px;
+  margin-bottom: 20px !important;
+  font-family: 'PT Sans Narrow', sans-serif;
+  resize: none;
+}
 .type-21 h3 {
   letter-spacing: 5px;
-  font-size: 35px;
+  font-size: 28px;
   line-height: 30px;
   color: #dce4e8;
   font-family: 'PT Sans Narrow', sans-serif;
@@ -24,27 +56,17 @@
   margin-inline-start: 0px;
   margin-inline-end: 0px;
 }
-.type-21 .checkout-form .right-content {
+.type-21 .checkout-form .form-row {
+  padding: 3px;
+  margin: 0 0 6px;
+}
+.type-21 .checkout-form .left-content .form-row-first {
+  float: left;
+  width: 47%;
+  overflow: visible;
+}
+.type-21 .checkout-form .left-content .form-row-last {
   float: right;
-  width: 48%;
-}
-.type-21 .checkout-form .right-content .vc-additional-fields_field-wrapper .form-row .input-additional textarea {
-  resize: none;
-}
-.type-21 .checkout-form .right-content .vc-additional-fields_field-wrapper .form-row .input-additional .input-text {
-  font-family: 'PT Sans Narrow', sans-serif;
-  position: relative;
-  background: transparent;
-  border: 2px solid #1d2326;
-  font-size: 14px;
-  letter-spacing: 3px;
-  vertical-align: top;
-  padding: 5px 15px 7px;
-  margin-bottom: 20px !important;
-  height: 4em;
-  line-height: 1.5;
-  display: block;
-  box-shadow: none;
-  border-color: #1d2326;
-  width: 100%;
+  width: 47%;
+  overflow: visible;
 }
