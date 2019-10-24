@@ -1,7 +1,13 @@
 .type-11{
     @radius_img: 50%;
+    @color: #ffffff;
     background: #121618;
+     @hover{
+        background: #121618;
+        color: #ffffff;
+        transition: 0.5s all;}
     .pd0{padding: 100px 0px;}
+    .pd1{padding: 100px 0px 0px 0px;}
     .img_cdsd{
         width: 100%;
         height: 10px;
@@ -51,8 +57,25 @@
                 }
             }
             .full_img{
+                position: relative;
+                .ic_search{
+                        cursor: pointer;
+                        width: 7%;
+                        background-color: #ffc851;
+                        position: absolute;
+                        top: 0;
+                        right: 0;
+                        border-radius: 100%;
+                        img{
+                            margin:0px 0px 0px -1px;
+                        }
+                }
                 img{
+                     -webkit-transform: scale(1);transform: scale(1);-webkit-transition: .3s ease-in-out;transition: .3s ease-in-out;position: relative;
                     border-radius: @radius_img;
+                     &:hover{
+                        -webkit-transform: scale(1.09);transform: scale(1.09);
+                    }
                 }
             }
             .img_nho{
@@ -61,14 +84,18 @@
                 padding: 25px 0px;
                 cursor: pointer;
                 img{
+                    -webkit-transform: scale(1);transform: scale(1);-webkit-transition: .3s ease-in-out;transition: .3s ease-in-out;position: relative;
                     border-radius: @radius_img;
+                    &:hover{
+                        -webkit-transform: scale(1.09);transform: scale(1.09);
+                    }
                 }
 
             }
             .title_Vincent{
                 margin: 20px 0 30px;
                 text-align: left;
-                color: white;
+                color: @color;
                 h2{
                     font-size:35px;
                     letter-spacing: 8px;
@@ -95,7 +122,7 @@
             .size{
                 select option{ color: black !important; }
                 .form_select_vincent select{
-                    color: white;
+                    color: @color;
                     height: 38px;
                     max-width: 100%;
                     min-width: 75%;
@@ -105,25 +132,76 @@
                     margin-right: 16px;
                 }
                 h4{
-                    color: white;
+                    color: @color;
                     text-align: left;
                     font-size: 20px;
                 }
             }
             .clear{
                 cursor: pointer;
-             width: 85px;
-             background: #ffc851;
-             border: 2px solid #ffc851;
-             padding: 10px;
-             text-align: center;
-             display: table;
-             float: right;
-             margin: 20px 90px;
+                width: 85px;
+                float: right;
+                display: table;
+                margin: 20px 90px;
+            
              a{
-                   letter-spacing: 8px;
+                border: 2px solid #ffc851;
+                padding: 10px;
+                text-align: center;
+                background: #ffc851;
+                letter-spacing: 8px;
                 color: #121618;
                 text-decoration: none;
+                 &:hover{
+                    @hover;
+                }
+            }
+        }
+        .so{
+            border: 2px solid @color;
+            text-align: center;
+            width: 42px;
+            height: 42px;
+            padding: 7px;
+            color: @color;
+        }
+        .addtocart{
+            width: 40%;
+            margin-top: 10px;
+            a{
+                cursor: pointer;
+                height: 42px;
+                background: #ffc851;
+                border: 2px solid #ffc851;
+                padding: 10px;
+                text-align: center;
+                margin-left: -30px;
+                letter-spacing: 4px;
+                color: #121618;
+                text-decoration: none;
+                text-transform: uppercase;
+                &:hover{
+                    @hover;
+                }
+               
+            }
+        }
+        .product_meta{
+            color: @color;
+            span{
+                line-height: 27px;
+                display: block;
+                &:before{
+                        content: "\25E6";
+                        font-size: 21px;
+                        margin-right: 8px;
+                        color: #ffc851;
+                }
+                a{
+                    cursor: pointer;
+                    color: @color;
+                    text-decoration: none;
+                }
             }
         }
 
