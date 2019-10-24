@@ -26,7 +26,7 @@
 	<link rel="stylesheet" href="css/04.css">
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script> 
+    <script src="js/angular.1.4.8.min.js"></script>
     <script src="js/app04.js"></script>
 </head>
 <body ng-app="myApp" ng-controller="myController">
