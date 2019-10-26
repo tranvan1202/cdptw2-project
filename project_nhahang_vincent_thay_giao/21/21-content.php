@@ -142,7 +142,7 @@ $url_path = str_replace('\\', '/', $url_path);
             </div>
             <!-- PHẦN TABLE TÍNH GIÁ -->
             <h3 id="order_review_heading">Your order</h3>
-            <div id="order_review" class="table-responsive checkout-review-order">
+            <div id="order_review" class="checkout-review-order">
               <table class="table table-bordered checkout-review-order-table">
                 <thead>
                   <tr>
@@ -190,6 +190,20 @@ $url_path = str_replace('\\', '/', $url_path);
                   </tr>
                 </tfoot>
               </table>
+            </div>
+            <div id="payment" class="checkout-payment">
+              <ul class="payment_methods">
+                <li class="payment-methods-notice">
+                  Sorry, it seems that there are no available payment methods for your state. Please contact us if you require assistance or wish to make alternate arrangements.
+                </li>
+              </ul>
+              <div class="form-row place-order">
+                <div class="terms-and-conditions-wrapper">
+                  <p>Your personal data will be used to process your order, support your experience throughout this website, and for other purposes described in our 
+                    <a href="#" class="privacy-policy-link">privacy policy</a>.</p>
+                </div>
+                <button type="submit" class="button alt" name="checkout_place_order" id="place_order" value="Place order" data-value="Place order">Place order</button>
+              </div>
             </div>
 
           </div>
