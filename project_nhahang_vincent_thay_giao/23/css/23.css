@@ -1,0 +1,27 @@
+.type-23 .khung_error .woocommerce-error {
+  padding: 1em 2em 1em 3.5em;
+  margin: 0 0 2em;
+  position: relative;
+  background-color: #252c30;
+  color: #ffffff;
+  border-top: 3px solid #b81c23;
+  list-style: none outside;
+  width: auto;
+  word-wrap: break-word;
+}
+.type-23 .khung_error .woocommerce-error li {
+  font-weight: bold;
+  font-size: 17px;
+  list-style: none;
+  line-height: 25px;
+}
+.type-23 .khung_error .woocommerce-error li:before {
+  color: #ffc851;
+  font-weight: 700;
+  padding-right: 10px;
+  content: "\002022";
+}
+.type-23 .khung_error .woocommerce-error li span {
+  font-weight: normal;
+  font-size: 15px;
+}
