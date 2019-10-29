@@ -1,0 +1,94 @@
+.type-05 #box-type-05 {
+  background-image: url("../images/bg.png") !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+}
+.type-05 #box-type-05 .box-05 {
+  padding: 80px 0px;
+}
+.type-05 #box-type-05 .box-05 #box-05-left .title h1 {
+  font-family: 'PT Sans Narrow';
+  font-weight: normal;
+  font-size: 40px;
+  color: #000;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+  margin-bottom: 43px;
+}
+.type-05 #box-type-05 .box-05 #box-05-left .ct_1_left {
+  position: relative;
+}
+.type-05 #box-type-05 .box-05 #box-05-left .ct_1_left > p {
+  font-family: 'PT Sans Narrow';
+  color: #121618;
+  line-height: 32px;
+  letter-spacing: 3px;
+  padding-bottom: 40px;
+  font-size: 16px;
+}
+.type-05 #box-type-05 .box-05 #box-05-left .ct_1_left:before {
+  position: absolute;
+  content: '';
+  bottom: 0px;
+  left: 0px;
+  background-image: url("../images/line_ct.png");
+  width: 212px;
+  height: 9px;
+}
+.type-05 #box-type-05 .box-05 #box-05-left .ct_2_left {
+  font-family: 'OpenSans';
+  margin-top: 40px;
+  font-size: 16px;
+  line-height: 28px;
+}
+.type-05 #box-type-05 .box-05 #box-05-left .ct_2_left p {
+  color: #121618;
+}
+.type-05 #box-type-05 .box-05 #box-05-left .ct_2_left p:first-child {
+  margin-bottom: 16px;
+}
+.type-05 #box-type-05 .box-05 #box-05-right .ct_1_right {
+  margin-top: 20px;
+  list-style: none;
+}
+.type-05 #box-type-05 .box-05 #box-05-right .ct_1_right li .box_ct_1 {
+  margin-bottom: 23px;
+}
+.type-05 #box-type-05 .box-05 #box-05-right .ct_1_right li .box_ct_1 p {
+  font-size: 14px;
+  font-family: 'OpenSans';
+  padding: 18px 28px 18px;
+  border: 2px solid #252c30;
+  line-height: 28px;
+}
+.type-05 #box-type-05 .box-05 #box-05-right .ct_1_right li .user {
+  display: flex;
+  align-items: center;
+  margin-bottom: 45px;
+}
+.type-05 #box-type-05 .box-05 #box-05-right .ct_1_right li .user:last-child {
+  margin-bottom: 0px;
+}
+.type-05 #box-type-05 .box-05 #box-05-right .ct_1_right li .user .img_user img {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+.type-05 #box-type-05 .box-05 #box-05-right .ct_1_right li .user .info_user span {
+  display: block;
+  color: #121618;
+}
+.type-05 #box-type-05 .box-05 #box-05-right .ct_1_right li .user .info_user span:first-child {
+  font-size: 16px;
+  text-transform: uppercase;
+  font-family: 'PT Sans Narrow';
+  letter-spacing: 3px;
+  margin-bottom: 5px;
+}
+.type-05 #box-type-05 .box-05 #box-05-right .ct_1_right li .user .info_user span:last-child {
+  font-size: 14px;
+  font-family: 'OpenSans';
+  margin-top: 5px;
+}
