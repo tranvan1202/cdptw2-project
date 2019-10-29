@@ -1,0 +1,182 @@
+.type-19 {
+  background: #121618;
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 300;
+  color: #dce4e8;
+  font-family: "Open Sans";
+}
+.type-19 .form-vincent {
+  padding: 70px 10px;
+}
+.type-19 .table-vincent {
+  border-collapse: collapse;
+  margin-bottom: 53px;
+  border: 1px solid rgba(0,0,0,0.1);
+  margin: 0 -1px 24px 0;
+  text-align: left;
+  width: 100%;
+  border-radius: 5px;
+  padding-top: 94px;
+}
+.type-19 .table-vincent th {
+  background: #252c30 !important;
+  font-weight: 700;
+  padding: 9px 12px;
+  line-height: 1.5em;
+  text-align: center;
+  padding: 11px 0;
+  border: 1px solid #e1e1e1;
+  border: none;
+}
+.type-19 .table-vincent a {
+  color: #dce4e8;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+.type-19 .table-vincent td a:hover {
+  text-decoration: none;
+  color: orange;
+}
+.type-19 .table-vincent td {
+  padding: 45px 20px;
+  text-align: center;
+}
+.type-19 .table-vincent .button {
+  cursor: not-allowed;
+  color: #dce4e8;
+  background: #1d2326;
+  border: none;
+  text-transform: uppercase;
+  width: 47%;
+  padding: 7px;
+  opacity: 0.5;
+  float: right;
+}
+.type-19 .table-vincent button:hover {
+  color: black;
+  background: #ffc851;
+}
+.type-19 .table-vincent img {
+  width: 120%;
+}
+.type-19 .table-vincent a.remove {
+  margin: 0 auto;
+  font-size: 18px;
+  font-weight: 400;
+  color: #dce4e8 !important;
+  text-decoration: none;
+  height: 1em;
+  width: 1em;
+  text-align: center;
+  line-height: 1;
+  display: block;
+  font-size: 1.5em;
+}
+.type-19 .qty {
+  width: 42px;
+  height: 42px;
+  font-size: 14px;
+  line-height: 38px;
+  text-align: center;
+  border: solid 2px;
+  border-radius: 0;
+  background: transparent;
+  box-sizing: border-box;
+}
+.type-19 td {
+  padding: 20px 1px;
+  width: 17%;
+}
+.type-19 .form-item {
+  border-bottom: 2px solid #ffffff;
+}
+.type-19 input[type="text"] {
+  background: transparent;
+  border: 2px solid;
+  width: 100%;
+  font-size: 14px;
+  line-height: 26px;
+  letter-spacing: 3px;
+  vertical-align: top;
+  padding: 5px 15px 7px;
+}
+.type-19 .input {
+  position: relative;
+  background: transparent;
+  border: 2px solid #1d2326;
+  width: 55%;
+  font-size: 14px;
+  margin-left: -40px;
+  line-height: 26px;
+  letter-spacing: 3px;
+  padding: 5px 15px 7px;
+  margin-bottom: 20px !important;
+}
+.type-19 form input[type=submit] {
+  position: absolute;
+  bottom: 30%;
+  right: 2.2%;
+  width: 50%;
+  padding: 7px 0px;
+  background: #1d2326;
+  border: 1px solid #1d2326;
+}
+.type-19 .dangki:hover {
+  color: black;
+  background: #ffc851;
+}
+.type-19 .button {
+  color: black;
+  background: #ffc851;
+  border: none;
+  text-transform: uppercase;
+  width: 33%;
+  padding: 7px;
+  float: left;
+}
+.type-19 button:hover {
+  color: #dce4e8;
+  background: #1d2326;
+}
+.type-19 h2 {
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: 4px;
+  font-weight: 700;
+  margin-bottom: 28px;
+  text-transform: uppercase;
+  font-family: "PT Sans Narrow";
+}
+.type-19 .cart-subtotal {
+  line-height: 1px;
+}
+.type-19 .order-total {
+  line-height: 10px;
+}
+@media only screen and (max-width: 1200px) {
+  .type-19 form input[type=submit] {
+    width: 50%;
+  }
+  .type-19 .table-vincent img {
+    width: 80px;
+  }
+  .type-19 .button {
+    width: 35%;
+  }
+}
+@media only screen and (max-width: 990px) {
+  .type-19 .table-vincent .button {
+    width: 103%;
+  }
+  .type-19 .button {
+    width: 50%;
+  }
+}
+@media only screen and (max-width: 650px) {
+  .type-19 .button {
+    width: 50%;
+  }
+}
