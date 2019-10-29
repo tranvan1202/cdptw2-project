@@ -25,7 +25,7 @@ Vue.component( "feedback", {
 		      </div>
 		      <div class="user">
 		        <div class="img_user">
-		          <img :src="item.url" alt="item.alt">
+		          <img :src="item.src" :alt="item.alt">
 		        </div>
 		        <div class="info_user">
 		          <span>{{ item.name }}</span>

@@ -52,7 +52,7 @@
   margin-top: 20px;
   list-style: none;
 }
-.type-05 #box-type-05 .box-05 #box-05-right .ct_1_right li .box_ct_1 {
+.type-05 #box-type-05 .box-05 #box-05-right .ct_1_right li:first-child {
   margin-bottom: 23px;
 }
 .type-05 #box-type-05 .box-05 #box-05-right .ct_1_right li .box_ct_1 p {

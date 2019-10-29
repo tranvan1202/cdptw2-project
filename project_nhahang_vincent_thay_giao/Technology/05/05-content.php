@@ -26,37 +26,7 @@
         </div>
         <div class="col-md-6 col-sm-6 col-xs-12">
           <div id="box-05-right">
-              <ul class="ct_1_right">
-                <li>
-                  <div class="box_ct_1">
-                    <p>Vincent was one of the first restaurants I discovered upon moving to New York last summer, and it remains a favorite. Despite its sizable menu full of pastas, sandwiches, and pizzas, I almost always get the same thing – the Vincent pizza. It’s made with Ricotta & Marinara sauces, spiced with oregano, and topped with eggplant, red onions, basil, Pecorino Romano & Mozzarella. It really is one of the best pizzas I’ve ever had – and I eat a lot of pizza.</p>
-                  </div>
-                  <div class="user">
-                    <div class="img_user">
-                      <img src="images/user-1.png" alt="user">
-                    </div>
-                    <div class="info_user">
-                      <span>ADAM JEFFERSON</span>
-                      <span>Lawyer, New York</span>
-                    </div>
-                  </div>
-                </li>
-                
-                <li>
-                  <div class="box_ct_1">
-                    <p>The pizza is delicious! The crust is thin and crispy, great sauce, and awesome cheese blend. And it makes a cute cheap date!</p>
-                  </div>
-                  <div class="user">
-                    <div class="img_user">
-                      <img src="images/user-2.png" alt="user">
-                    </div>
-                    <div class="info_user">
-                      <span>SAMANTHA GREENBERG</span>
-                      <span>Artist, Boston</span>
-                    </div>
-                  </div>
-                </li>
-              </ul>
+              <feedback></feedback>
             </div>
           </div>
         </div>
