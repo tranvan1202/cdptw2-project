@@ -14,25 +14,23 @@
     }
 
     $less = new lessc;
-    $less->compileFile('less/16.less', 'css/16.css');
+    $less->compileFile('less/17.less', 'css/17.css');
 
 ?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>16</title>
+        <title>17</title>
         <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
         <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
-        <link href="<?php echo $url_path ?>/css/16.css" rel="stylesheet" type="text/css"/>
+        <link href="<?php echo $url_path ?>/css/17.css" rel="stylesheet" type="text/css"/>
         <link href="<?php echo $url_path ?>/css/fonts.css" rel="stylesheet" type="text/css"/>
-        <link rel="stylesheet" type="text/css" href="<?php echo $url_path ?>/css/vue-range-slider.min.css">
         <script src="js/jquery.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
-        <script src="<?php echo $url_path ?>/js/vue.js"></script>
-        <script src="js/vue-range-slider.min.js"></script>
+        <script src="js/vue.js"></script>
     </head>
     <body>
-        <?php include $dir_block.'/16-content.php'; ?>
-        <script src="js/16.js"></script>
+        <?php include $dir_block.'/17-content.php'; ?>
+        <script src="js/17.js"></script>
     </body>
 </html>
