@@ -40,14 +40,19 @@ footer {
   text-decoration: none;
   color: #ffffff;
 }
-.type-09 li a:hover {
+.type-09 .listf li a:hover {
   color: #ffc851;
 }
 .type-09 img {
-  width: 12%;
+  width: 14%;
 }
 .type-09 .cop {
   margin-top: 35px;
   margin-bottom: 55px;
   opacity: 0.5;
+}
+@media only screen and (max-width: 991px) {
+  .type-09 img {
+    width: 20%;
+  }
 }
