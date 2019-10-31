@@ -24,9 +24,6 @@ $less->compileFile('less/08.less', 'css/08.css');
     <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
     <link href="css/08-fonts.css" rel="stylesheet" type="text/css"/>
     <link href="css/08.css" rel="stylesheet" type="text/css"/>
-    <script src="js/jquery-2.2-1.min.js"></script>
-    <script src="js/bootstrap-3.3.6.min.js"></script>
-
 </head>
 <body>
     <?php include '../08/08-content.php'; ?>

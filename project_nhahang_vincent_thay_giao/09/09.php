@@ -26,7 +26,6 @@ $less->compileFile('less/09.less', 'css/09.css');
     <link href="css/09.css" rel="stylesheet" type="text/css"/>
     <script src="js/jquery-2.2.1.min.js"></script>
     <script src="js/bootstrap-3.3.6.min.js"></script>
-
 </head>
 <body>
     <?php include '../09/09-content.php'; ?>
