@@ -9,15 +9,30 @@
 .type-08 .susce1 {
   display: none;
 }
+.type-08 .error1 {
+  font-size: 20px;
+}
 .type-08 .error2 {
   color: red;
-  display: inline-block;
+  display: inline;
 }
 .type-08 .tbError2 {
+  border: 3px solid #F7E700;
+  width: 80%;
+  right: 9.7%;
   display: inline-block;
+  padding-top: 5px;
 }
 .type-08 .susce2 {
+  border: 1px solid #46ff00;
+  width: 80%;
+  position: absolute;
+  bottom: 50%;
+  right: 9.7%;
   display: inline-block;
+}
+.type-08 .susce2 p {
+  margin: 10px 0px;
 }
 .type-08 .text-tieude {
   margin-top: 104px;
@@ -50,7 +65,7 @@
 .type-08 form input[type=submit],
 .type-08 form input[type=reset] {
   position: absolute;
-  bottom: 24%;
+  bottom: 10%;
   right: 23.2%;
   width: 98px;
   padding: 9px 0px;
@@ -58,7 +73,7 @@
   border: 1px solid #1d2326;
 }
 .type-08 .dangkymail {
-  padding-bottom: 55px;
+  padding-bottom: 5px;
 }
 .type-08 .dangki:hover {
   color: black;
