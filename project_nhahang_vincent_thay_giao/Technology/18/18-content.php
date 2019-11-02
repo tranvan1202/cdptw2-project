@@ -14,7 +14,7 @@ $url_path = str_replace('\\', '/', $url_path);
                 <div class="row">
                     <div class="col-md-6 col-sm-6">
                         <div class="bao_tieude">
-                            <p>Showing 1–12 of 72 results</p>
+                            <p>Showing 1–12 of 72 results {{dulieu}}</p>
                         </div>
                     </div>
                     <div class="col-md-6 col-sm-6">
@@ -62,6 +62,7 @@ $url_path = str_replace('\\', '/', $url_path);
         </div> 
     </div>
 </div>
+
 
 
 
