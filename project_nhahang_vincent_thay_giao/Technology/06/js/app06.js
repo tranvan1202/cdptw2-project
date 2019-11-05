@@ -19,7 +19,7 @@ app.config(function($stateProvider, $urlRouterProvider) {
     // HOME STATES AND NESTED VIEWS ========================================
         .state('home', {
             url: '/home',
-            templateUrl: './home.html'
+            templateUrl: './homea.html'
         })
 
         // trang 1
