@@ -27,7 +27,7 @@
         <link href="<?php echo $url_path ?>/css/fonts.css" rel="stylesheet" type="text/css"/>
         <script src="js/jquery.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
-        <script src="js/vue.js"></script>
+        <script src="js/vue.js"></script>       
     </head>
     <body>
         <?php include $dir_block.'/17-content.php'; ?>
