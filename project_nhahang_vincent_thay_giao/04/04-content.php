@@ -13,18 +13,46 @@ $url_path = str_replace('\\', '/', $url_path);
       <h2>HOT SALES</h2>
     </div>  
     <div class="type_potion">
-      <div ng-init="displayData()">
-        <div class="row">  
-          <div class="col-md-3 col-sm-3" ng-repeat="product in products">
-            <div class="a text-center">
-              <img src="./images/{{product.img}}" alt="{{product.img}}">
-                <div class="tieudesp">{{product.name | uppercase}} </div>
-                <div class="noidungsp">
-                  <p>{{product.des}}</p>
-                </div>
-                <div class="giatien"><p>$ {{product.price | number:2}}</p></div>
-            </div>
-          </div>  
+      <div class="row">  
+        <div class="col-md-3 col-sm-3">
+          <div class="a text-center">
+            <img src="./images/1.png" alt="1">
+              <div class="tieudesp">CARBONARA</div>
+              <div class="noidungsp">
+                <p>Classic marinara sauce, authentic old-world pepperoni, all-natura</p>
+              </div>
+              <div class="giatien"><p>$ 6.90</p></div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-3">
+          <div class="a text-center">
+            <img src="./images/1.png" alt="2">
+              <div class="tieudesp">CARBONARA</div>
+              <div class="noidungsp">
+                <p>Classic marinara sauce, authentic old-world pepperoni, all-natura</p>
+              </div>
+              <div class="giatien"><p>$ 6.90</p></div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-3">
+          <div class="a text-center">
+            <img src="./images/1.png" alt="3">
+              <div class="tieudesp">CARBONARA</div>
+              <div class="noidungsp">
+                <p>Classic marinara sauce, authentic old-world pepperoni, all-natura</p>
+              </div>
+              <div class="giatien"><p>$ 6.90</p></div>
+          </div>
+        </div>
+       <div class="col-md-3 col-sm-3">
+          <div class="a text-center">
+            <img src="./images/1.png" alt="4">
+              <div class="tieudesp">CARBONARA</div>
+              <div class="noidungsp">
+                <p>Classic marinara sauce, authentic old-world pepperoni, all-natura</p>
+              </div>
+              <div class="giatien"><p>$ 6.90</p></div>
+          </div>
         </div>
       </div>
     </div>
