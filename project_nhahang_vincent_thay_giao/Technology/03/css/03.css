@@ -1,0 +1,71 @@
+.type-03 {
+  background-image: url(../images/03-bg.png) !important;
+  margin-bottom: 65px !important;
+  padding-top: 54px !important;
+  padding-bottom: 63px !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  overflow: hidden;
+}
+.type-03 .vincent_tieuchi_iconbox {
+  text-align: center;
+}
+.type-03 .vincent_tieuchi_iconbox img {
+  transition: 1s ease;
+}
+.type-03 .vincent_tieuchi_iconbox img:hover {
+  transform: rotate(360deg);
+  cursor: pointer;
+}
+.type-03 .vincent_tieuchi a {
+  text-decoration: none;
+}
+.type-03 .vincent_tieuchi a:hover {
+  cursor: pointer;
+}
+.type-03 .vincent_tieuchi a h4 {
+  font-family: 'PT Sans Narrow', sans-serif;
+  text-align: center;
+  font-size: 24px;
+  line-height: 24px;
+  letter-spacing: 5px;
+  font-weight: normal;
+  text-transform: uppercase;
+  display: block;
+  margin-block-start: 1.33em;
+  margin-block-end: 1.33em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  color: #121618;
+}
+.type-03 .vincent_tieuchi_text {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+.type-03 .vincent_tieuchi_text p {
+  font-family: 'OpenSans', sans-serif;
+  text-align: center;
+  margin: 18px 0;
+  font-size: 15px;
+}
+.type-03 .bounce-enter-active {
+  animation: bounce-in .5s;
+}
+.type-03 .bounce-leave-active {
+  animation: bounce-in .5s reverse;
+}
+@keyframes bounce-in {
+  .type-03 0% {
+    transform: scale(0);
+  }
+  .type-03 50% {
+    transform: scale(1.5);
+  }
+  .type-03 100% {
+    transform: scale(1);
+  }
+}
