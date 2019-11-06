@@ -11,23 +11,18 @@ Vue.component("navigation", {
           name: "About",
           children: [
             {
-              url: "https://twitter.com/andrejsharapov",
-              name: "Twitter",
+              url: "#",
+              name: "Menu 1",
               target: "_blank"
             },
             {
-              url: "https://dribbble.com/andrejsharapov",
-              name: "Dribbble",
+              url: "#",
+              name: "Menu 2",
               target: "_blank"
             },
             {
-              url: "https://www.behance.net/andrejsharapov",
-              name: "Behance",
-              target: "_blank"
-            },
-            {
-              url: "https://www.instagram.com/andrej.sharapov/",
-              name: "Instagram",
+              url: "#",
+              name: "Menu 3",
               target: "_blank"
             }
           ]
@@ -46,8 +41,8 @@ Vue.component("navigation", {
                   :title="item.name" 
                   @click="isOpen = !isOpen, active = !active" 
                   :class="{ active }">{{ item.name }} </a>
-                <div :class="{ isOpen }" class="dropdown">
-                    <ul>
+                <div :class="{ isOpen }"  class="dropdown">
+                    <ul :class="{ isOpen }" >
                         <li 
                           v-for="{ url, name, index, target } in item.children" 
                           :key="index">
