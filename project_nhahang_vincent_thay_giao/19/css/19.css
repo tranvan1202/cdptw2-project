@@ -6,14 +6,17 @@
   color: #dce4e8;
   font-family: "Open Sans";
 }
+.type-19 .vincent-cart {
+  padding-top: 50px;
+}
 .type-19 .form-vincent {
-  padding: 70px 10px;
+  padding: 20px 10px;
 }
 .type-19 .table-vincent {
   border-collapse: collapse;
   margin-bottom: 53px;
   border: 1px solid rgba(0,0,0,0.1);
-  margin: 0 -1px 24px 0;
+  margin: 0 1px 24px 0;
   text-align: left;
   width: 100%;
   border-radius: 5px;
@@ -63,16 +66,9 @@
   width: 120%;
 }
 .type-19 .table-vincent a.remove {
-  margin: 0 auto;
-  font-size: 18px;
   font-weight: 400;
-  color: #dce4e8 !important;
   text-decoration: none;
-  height: 1em;
-  width: 1em;
-  text-align: center;
   line-height: 1;
-  display: block;
   font-size: 1.5em;
 }
 .type-19 .qty {
@@ -97,17 +93,12 @@
   background: transparent;
   border: 2px solid;
   width: 100%;
-  font-size: 14px;
-  line-height: 26px;
-  letter-spacing: 3px;
-  vertical-align: top;
   padding: 5px 15px 7px;
 }
 .type-19 .input {
   position: relative;
   background: transparent;
   border: 2px solid #1d2326;
-  width: 55%;
   font-size: 14px;
   margin-left: -40px;
   line-height: 26px;
@@ -155,6 +146,10 @@
 }
 .type-19 .order-total {
   line-height: 10px;
+}
+.type-19 .cart-collaterals {
+  padding-bottom: 50px;
+  padding-left: 11px;
 }
 @media only screen and (max-width: 1200px) {
   .type-19 form input[type=submit] {

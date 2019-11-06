@@ -1,3 +1,5 @@
+@mau:#1d2326;
+@mau-hover:#ffc851;
 .type-19{
     background: #121618;
     font-size: 16px;
@@ -5,14 +7,17 @@
     font-weight: 300;
     color: #dce4e8;
     font-family: "Open Sans";
+    .vincent-cart{
+        padding-top:50px;
+    }
     .form-vincent{
-        padding:70px 10px;
+        padding:20px 10px;
     }
     .table-vincent{
         border-collapse: collapse;
         margin-bottom: 53px;
         border: 1px solid rgba(0,0,0,.1);
-        margin: 0 -1px 24px 0;
+        margin: 0 1px 24px 0;
         text-align: left;
         width: 100%;
         border-radius: 5px;
@@ -45,7 +50,7 @@
         .button{
             cursor: not-allowed;
             color:#dce4e8;
-            background:#1d2326;
+            background:@mau;
             border:none;
             text-transform: uppercase;
             width: 47%;
@@ -54,24 +59,17 @@
             float: right;
         }
         button:hover{
-         color:black;
-        background:#ffc851;
+            color:black;
+            background:@mau-hover;
         }
-         img{
-        width: 120%;
+        img{
+            width: 120%;
         }
         a.remove {
-        margin: 0 auto;
-        font-size: 18px;
-        font-weight: 400;
-        color:#dce4e8 !important;
-        text-decoration: none;
-        height: 1em;
-        width: 1em;
-        text-align: center;
-        line-height: 1;
-        display: block;
-        font-size: 1.5em;
+            font-weight: 400;
+            text-decoration: none;
+            line-height: 1;
+            font-size: 1.5em;
         }
     }
     .qty{
@@ -96,17 +94,12 @@
         background: transparent;
         border: 2px solid;
         width: 100%;
-        font-size: 14px;
-        line-height: 26px;
-        letter-spacing: 3px;
-        vertical-align: top;
         padding: 5px 15px 7px;
     }
     .input{
         position: relative;
         background: transparent;
-        border: 2px solid #1d2326;
-        width: 55%;
+        border: 2px solid @mau;
         font-size: 14px;
         margin-left: -40px;
         line-height: 26px;
@@ -120,16 +113,16 @@
         right: 2.2%;
         width: 50%;
         padding: 7px 0px;
-        background: #1d2326;
-        border: 1px solid #1d2326;
+        background: @mau;
+        border: 1px solid @mau;
     }
     .dangki:hover{
         color:black;
-        background:#ffc851;
+        background:@mau-hover;
     }
     .button{
         color:black;
-        background:#ffc851;
+        background:@mau-hover;
         border:none;
         text-transform: uppercase;
         width: 33%;
@@ -138,7 +131,7 @@
     }
     button:hover{
         color:#dce4e8;
-        background:#1d2326;;
+        background:@mau;
     }
     h2{
         font-size: 18px;
@@ -155,7 +148,10 @@
     .order-total{
         line-height: 10px;
     }
-
+    .cart-collaterals{
+        padding-bottom:50px;
+        padding-left:11px;
+    }
 }
 @media only screen and (max-width: 1200px) {
     .type-19 form input[type=submit] {
@@ -171,15 +167,14 @@
 @media only screen and (max-width: 990px) {
     .type-19 .table-vincent .button{
       width: 103%;  
-    }
-    .type-19 .button {
+  }
+  .type-19 .button {
     width: 50%;
 }
-    
+
 }
 @media only screen and (max-width: 650px) {
-.type-19 .button {
-    width: 50%;
-}
-    
+    .type-19 .button {
+        width: 50%;
+    }
 }
