@@ -28,9 +28,11 @@
         <script src="<?php echo $url_path ?>/js/jquery.min.js" ></script>
         <script src="<?php echo $url_path ?>/js/bootstrap.min.js"></script>
         <script src="js/jquery-3.3.1.min.js"></script>
-        <script src="js/01.js"></script>
+       
+           <script src="https://cdn.jsdelivr.net/npm/vue"></script>
     </head>
     <body>
         <?php include $dir_block.'/01-content.php'; ?>
+         <script src="js/01.js"></script>
     </body>
 </html>
