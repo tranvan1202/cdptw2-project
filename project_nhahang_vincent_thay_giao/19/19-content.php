@@ -15,7 +15,7 @@ $url_path = str_replace('\\', '/', $url_path);
                 <div class="vincent-cart">
                     <div class="listcart">
                         <form class="form-vincent" action="" method="">
-                            <table class="table-vincent">
+                            <table class="shop_table shop_table_responsive table-vincent">
                                 <thead>
                                     <tr>
                                         <th class="product-remove">&nbsp;</th>
@@ -32,14 +32,13 @@ $url_path = str_replace('\\', '/', $url_path);
                                             <a href="#" class="remove" aria-label="Remove this item">&times;</a>
                                         </td>
                                         <td class="product-thumbnail">
-                                            <a href="#"><img src="./images/1.png" /></a>
+                                            <a href="#"><img src="./images/1.png" alt="1" /></a>
                                         </td>
                                         <td class="product-name" >
                                             <a href="#">Carbonara</a>                      
                                         </td>
                                         <td class="product-price">
-                                            <span>
-                                            $ 3.80</span>
+                                            <span>$ 3.80</span>
                                         </td>
                                         <td class="product-quantity" >
                                             <div class="quantity">
@@ -48,83 +47,60 @@ $url_path = str_replace('\\', '/', $url_path);
                                                 class="input-text qty"
                                                 step="1"
                                                 min="0"
-                                                max=""
+                                                max="20"
                                                 value="2"
                                                 title="Qty"
-                                                size="4"
                                                 inputmode="numeric"/>
-                                            </td>
-                                            <td class="product-subtotal" >
-                                                <span class="woocommerce-Price-amount amount">
-                                                $ 7.60</span>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td colspan="6">
-                                                <div class="row">
-                                                    <div class="col-md-6 1">
-                                                        <form  name="dangkymail" class="dangkymail" enctype="multipart/form-data" accept-charset="UTF-8" method="post">
-                                                            <input class="input" type="text" name="ten" placeholder="Coupon code" required="">
-                                                            <input type="submit" value="APPLY COUPON" class="dangki">
-                                                        </form>
-                                                    </div>
-                                                    <div class="col-md-6 2">
-                                                        <button type="submit" class="button" name="update_cart" value="Update cart">Update cart</button>
-                                                    </div>
-                                                </div>           
-                                            </td>
-                                        </tr>
-
-                                    </tbody>
+                                            </div>
+                                        </td>
+                                        <td class="product-subtotal" >
+                                            <span class="woocommerce-Price-amount amount">
+                                            $ 7.60</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="6">
+                                            <div class="row">
+                                                <div class="col-md-6 1">
+                                                        <input class="input" type="text" name="ten" placeholder="Coupon code" required="">
+                                                        <input type="submit" value="APPLY COUPON" class="dangki">
+                                                </div>
+                                                <div class="col-md-6 2">
+                                                    <button type="submit" class="button" name="update_cart" value="Update cart">Update cart</button>
+                                                </div>
+                                            </div>           
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </form>
+                        <div class="cart-collaterals">
+                            <div class="cart_totals ">
+                                <h2>Cart totals</h2>
+                                <table class="shop_table">
+                                    <tr class="cart-subtotal">
+                                        <th>Subtotal</th>
+                                        <td data-title="Subtotal"><span class="amount">3.80</span></td>
+                                    </tr>
+                                    <tr class="order-total">
+                                        <th>Total</th>
+                                        <td data-title="Total"><strong><span class="amount">3.80</span></strong></td>
+                                    </tr>
                                 </table>
-                            </form>
-                            <div class="cart-collaterals">
-                                <div class="cart_totals ">
-                                    <h2>Cart totals</h2>
-                                    <table cellspacing="0" class="shop_table">
-                                        <tr class="cart-subtotal">
-                                            <th>Subtotal</th>
-                                            <td data-title="Subtotal"><span class="amount">3.80</span></td>
-                                        </tr>
-                                        <tr class="order-total">
-                                            <th>Total</th>
-                                            <td data-title="Total"><strong><span class="amount">3.80</span></strong> </td>
-                                        </tr>
-                                    </table>
-                                    <div class="wc-proceed-to-checkout">
-                                        <button type="submit" class="button" name="update_cart" value="Update cart">
-    Proceed to checkout</button>
-                                    </div>
+                                <div class="wc-proceed-to-checkout">
+                                    <button type="submit" class="button" name="update_cart" value="Update cart">
+                                    Proceed to checkout</button>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="col-md-4 col-xs-4">
+            <div class="col-md-4 col-xs-4">
 
+            </div>
         </div>
     </div>
 </div>
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
