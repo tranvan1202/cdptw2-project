@@ -17,7 +17,7 @@ $url_path = str_replace('\\', '/', $url_path);
         <div class="row">  
           <div class="col-md-3 col-sm-3" ng-repeat="product in products">
             <div class="a text-center">
-              <img src="./images/{{product.img}}" alt="{{product.img}}">
+              <img ng-src="./images/{{product.img}}" alt="{{product.img}}">
                 <div class="tieudesp">{{product.name | uppercase}} </div>
                 <div class="noidungsp">
                   <p>{{product.des}}</p>
