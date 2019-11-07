@@ -4,7 +4,7 @@
             <div class="col-md-3 col-xs-6" ng-repeat="dessert in desserts">
                 <div class="vc_prod_item_wrapper">
                   <div class="vc_prod_list_image_wrapper">
-                       <a href="#"><img src="images/{{dessert.img}}" alt=""></a> 
+                       <a href="#"><img ng-src="images/{{dessert.img}}" alt=""></a> 
                      </div>
                    <h5 class="vc_prod_name"><a href="#">{{dessert.name}}</a></h5>
                    <p class="vc_prod_mieuta">{{dessert.des}}</p>
