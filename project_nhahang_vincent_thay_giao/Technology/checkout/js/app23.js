@@ -3,9 +3,13 @@ $(document).ready(function() {
 		$('.show-coupon').addClass('active');
 		$('#form-code').animate({'height':'toggle'}, 500);
 	});
+	// $('.btn-checkout').click(function(){
+	// 	$('.khung_error').show();
+	// });
 });	
-var app = angular.module('hung',[]);
-app.controller('Ctrl',function($scope){
+var app = angular.module('myApp',[]);
+app.controller('myController',function($scope){
+	$scope.loi = false;
 	$scope.emailShow = false;
 	$scope.noidungEmail = null;
 
@@ -33,7 +37,34 @@ app.controller('Ctrl',function($scope){
 	$scope.required = "required field";
 
 	$scope.CheckOut = function(){
+		$scope.loi=true;
+
 		//check firt name
+		$scope.CheckFirstName();
+		
+		//check last name
+		$scope.CheckLastName();
+
+		//check Street address 1
+		$scope.CheckStreet1();
+
+		//check Street address 2
+		$scope.CheckStreet2();
+
+		//check city
+		$scope.CheckCity();
+
+		//check post
+		$scope.CheckPost();
+
+		//check phone
+		$scope.CheckPhone();
+
+		//check email
+		$scope.CheckEmail();
+	}
+
+	$scope.CheckFirstName = function(){
 		if($scope.fName != undefined)
 		{
 			$scope.fNameShow = false;
@@ -43,7 +74,9 @@ app.controller('Ctrl',function($scope){
 			$scope.noidungFName = $scope.required;
 			$scope.fNameShow = true;
 		}
-		//check last name
+	}
+
+	$scope.CheckLastName = function(){
 		if($scope.lName != undefined)
 		{
 			$scope.lNameShow = false;
@@ -53,7 +86,9 @@ app.controller('Ctrl',function($scope){
 			$scope.noidungLName = $scope.required;
 			$scope.lNameShow = true;
 		}
-		//check Street address 1
+	}
+
+	$scope.CheckStreet1 = function(){
 		if($scope.hNumber != undefined)
 		{
 			$scope.hNumberShow = false;
@@ -63,8 +98,9 @@ app.controller('Ctrl',function($scope){
 			$scope.noidunghNumber = $scope.required;
 			$scope.hNumberShow = true;
 		}
+	}
 
-		//check Street address 2
+	$scope.CheckStreet2 = function(){
 		if($scope.aNumber != undefined)
 		{
 			$scope.aNumberShow = false;
@@ -74,8 +110,9 @@ app.controller('Ctrl',function($scope){
 			$scope.noidungaNumber = $scope.required;
 			$scope.aNumberShow = true;
 		}
+	}
 
-		//check city
+	$scope.CheckCity = function(){
 		if($scope.city != undefined)
 		{
 			$scope.cityShow = false;
@@ -85,8 +122,9 @@ app.controller('Ctrl',function($scope){
 			$scope.noidungCity = $scope.required;
 			$scope.cityShow = true;
 		}
+	}
 
-		//check post
+	$scope.CheckPost = function(){
 		if($scope.post != undefined)
 		{
 			$scope.post = false;
@@ -96,8 +134,9 @@ app.controller('Ctrl',function($scope){
 			$scope.noidungPost = $scope.required;
 			$scope.postShow = true;
 		}
-
-		//check post
+	}
+	
+	$scope.CheckPhone = function(){
 		if($scope.phone != undefined)
 		{
 			$scope.phone = false;
@@ -107,8 +146,8 @@ app.controller('Ctrl',function($scope){
 			$scope.noidungPhone = $scope.required;
 			$scope.phoneShow = true;
 		}
-
-		//check email
+	}
+	$scope.CheckEmail = function(){
 		if($scope.myForm.email.$error.email == null && $scope.myForm.email.$error.required == null)
 		{
 			$scope.emailShow = false;

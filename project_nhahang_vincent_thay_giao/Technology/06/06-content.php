@@ -14,18 +14,14 @@ $url_path = str_replace('\\', '/', $url_path);
 <div class="type-06">
   <div class="container-fluid">
     <div class="row">
-
       <div class="title-menu">
         <h2>Discover Our Menu</h2>
       </div>
-
       <!-- Product list -->
       <div class="vc_product_listing"> 
-        <!-- Danh mục tên product -->
         <div ui-view>
-          
         </div>
-      </div>
     </div>
   </div>
+</div>
 

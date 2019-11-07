@@ -4,15 +4,13 @@ var app = angular.module("myApp", ['ui.router']);
 app.config(function($stateProvider, $urlRouterProvider) {
 
     $urlRouterProvider.otherwise('/home/burgers');
-
+    
     $stateProvider
-
     // HOME STATES AND NESTED VIEWS ========================================
         .state('home', {
             url: '/home',
             templateUrl: './homea.html'
         })
-
         // trang 1
         .state('home.burgers', {
             url: '/burgers',
@@ -24,10 +22,8 @@ app.config(function($stateProvider, $urlRouterProvider) {
                         $scope.burgers = data;  
                     }); 
                 } 
-            }
-            
+            } 
         })
-
         // trang 2
         .state('home.desserts', {
             url: '/desserts',

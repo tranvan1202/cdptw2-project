@@ -130,9 +130,6 @@
   color: #121618;
   text-decoration: none;
 }
-.checkout .checkout-form .khung_error {
-  display: none;
-}
 .checkout .checkout-form .khung_error .woocommerce-error {
   padding: 1em 2em 1em 3.5em;
   margin: 0 0 2em;

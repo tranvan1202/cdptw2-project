@@ -42,7 +42,7 @@ $url_path = str_replace('\\', '/', $url_path);
                 </div>
               </div>
 
-              <div class="khung_error">
+              <div class="khung_error" ng-show="loi">
                 <ul class="woocommerce-error" role="alert">
                   <!-- hunghienthiloi -->
                   <li ng-show="fNameShow">Billing First name<span> is a {{noidungFName}}.</span></li>
@@ -52,7 +52,7 @@ $url_path = str_replace('\\', '/', $url_path);
                   <li ng-show="cityShow">Billing Town / City<span> is a {{noidungCity}}.</span></li>
                   <li ng-show="postShow">Billing Postcode<span> is a {{noidungPost}}.</span></li>
                   <li ng-show="phoneShow">Billing Phone<span> is a {{noidungPhone}}.</span></li>
-                  <li ng-show="emailShow">Billing Email address<span> Hung is a {{noidungEmail}}.</span></li>
+                  <li ng-show="emailShow">Billing Email address<span> is a {{noidungEmail}}.</span></li>
                   <li>Invalid payment method.</li>
     
                 </ul>
@@ -159,7 +159,8 @@ $url_path = str_replace('\\', '/', $url_path);
                           </label>
                           <!-- hungemail -->  
                           <span class="input-wrapper">
-                            <input type="email" class="input-text" ng-model="email" name="email" id="billing_email" placeholder="Nhap Email..." required>
+                            <input type="email" class="input-text" ng-model="email" name="email" 
+                            id="billing_email" placeholder="Nhap Email..." required>
                           </span>
                         </p>
                       </div>

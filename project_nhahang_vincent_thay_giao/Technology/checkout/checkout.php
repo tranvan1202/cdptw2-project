@@ -31,7 +31,7 @@ $less->compileFile('less/checkout.less', 'css/checkout.css');
         <script src="js/angular.1.4.8.min.js"></script>
         <script src="js/app23.js"></script>
     </head>
-    <body ng-app="hung" ng-controller="Ctrl">
+    <body ng-app="myApp" ng-controller="myController">
         <?php include '../checkout/checkout-content.php'; ?>
     </body>
 </html>
