@@ -1,15 +1,6 @@
 
 var app = angular.module("myApp", ['ui.router']);
 
-// app.controller("myController", function($scope, $http){ ádfsadfsd
-//     $scope.displayData = function(){  
-//         $http.get("./php/select.php")  
-//         .success(function(data){  
-//          $scope.products = data;  
-//      }); 
-//     } 
-// });
-
 app.config(function($stateProvider, $urlRouterProvider) {
 
     $urlRouterProvider.otherwise('/home/burgers');
@@ -28,7 +19,7 @@ app.config(function($stateProvider, $urlRouterProvider) {
             templateUrl: './burgers.html',
             controller: function($scope, $http){ 
                 $scope.displayData = function(){  
-                    $http.get("./php/select_burgers.php")  
+                    $http.get("./b.json")  
                     .success(function(data){  
                         $scope.burgers = data;  
                     }); 
@@ -43,7 +34,7 @@ app.config(function($stateProvider, $urlRouterProvider) {
             templateUrl: './desserts.html',
             controller: function($scope, $http){ 
                 $scope.displayData = function(){  
-                    $http.get("./php/select_desserts.php")  
+                    $http.get("./c.json")  
                     .success(function(data){  
                         $scope.desserts = data;  
                     }); 
