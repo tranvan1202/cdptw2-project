@@ -22,30 +22,10 @@ $url_path = str_replace('\\', '/', $url_path);
       <!-- Product list -->
       <div class="vc_product_listing"> 
         <!-- Danh mục tên product -->
-        
-
-
-
         <div ui-view>
-        <!-- Chi tiết sản phẩm trong danh mục -->
-          <!-- <div class="vincent_prod_output_container">
-            <div ng-init="displayData()">
-              <div class="row">
-                <div class="col-md-3 col-xs-6" ng-repeat="product in products">
-                  <div class="vc_prod_item_wrapper">
-                    <div class="vc_prod_list_image_wrapper">
-                      <img src="images/06-food1.png" alt=""> 
-                    </div>
-                    <h5 class="vc_prod_name"><a href="#">{{product.name}}</a></h5>
-                    <p class="vc_prod_mieuta">Classic marinara sauce, authentic old-world pepperoni,...</p>
-                    <div class="vc_prod_price">$2.60</div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div> -->
+          
         </div>
+      </div>
     </div>
   </div>
-</div>
 
