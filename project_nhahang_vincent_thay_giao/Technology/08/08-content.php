@@ -16,17 +16,17 @@ $url_path = str_replace('\\', '/', $url_path);
                     <h1>SUBSCRIBE FOR OUR NEWSLETTER</h1>
                 </div>
                 <form name="dangkymail" class="dangkymail" enctype="multipart/form-data" accept-charset="UTF-8" method="post">
-                    <input class="input" type="text" name="ten" placeholder="Enter your email..." required="" ng-model="noiDungSub">
+                    <input class="input" type="email" name="email" placeholder="Enter your email..." required ng-model="email">
                     <input type="submit" value="Đăng Ký" class="dangki" ng-click="dangKy()">
                 </form>
                 
             </div>
-            <p class="error1">The field is required.</p>
+            <p class="error2" ng-show="loi1">The field is required.</p>
             <br>
-            <div class="tbError1">
+            <div class="tbError2" ng-show="loi2">
                 <p>One or more fields have an error. Please check and try again.</p>
             </div>
-            <div class="susce1">
+            <div class="susce2" ng-show="sus1">
                 <p>Thank you for your message. It has been sent.</p>
             </div>
         </div>
