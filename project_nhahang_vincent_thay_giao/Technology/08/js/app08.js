@@ -1,13 +1,13 @@
 var app = angular.module("myApp",[]);
 app.controller('myController', function($scope){
-    $scope.loi1 = false;
-    $scope.loi2 = false;
-    $scope.sus1 = false; 
-    console.log($scope.noiDungSub);
-    $scope.dangKy = function(){
-        $scope.CheckEmail();
-    }
-    $scope.CheckEmail = function(){
+      $scope.loi1 = false;
+      $scope.loi2 = false;
+      $scope.sus1 = false; 
+      console.log($scope.noiDungSub);
+      $scope.dangKy = function(){
+            $scope.CheckEmail();
+      }
+      $scope.CheckEmail = function(){
 		if($scope.dangkymail.email.$error.email == null && $scope.dangkymail.email.$error.required == null)
 		{
 			alert("Đăng Ký Thành Công");

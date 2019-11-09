@@ -1,7 +1,6 @@
 
 var app = angular.module("myApp",['angularUtils.directives.dirPagination']);
 
-
 app.controller("myController", function($scope, $http){ 
     $scope.displayData = function(){  
         $http.get("./product.json")  
@@ -11,5 +10,5 @@ app.controller("myController", function($scope, $http){
         });  
     }  
     $scope.sortColumn = 'menu_order'; 
-    // $scope.dulieu = $scope.displayData();
+    
 });

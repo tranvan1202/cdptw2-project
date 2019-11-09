@@ -6,7 +6,6 @@ preg_match_all($pattern_uri, __DIR__, $matches);
 $url_path = $url_host . $matches[1][0];
 $url_path = str_replace('\\', '/', $url_path);
 ?>
-
 <div class="type-18">
     <div class="container">
         <div class="row">
@@ -14,7 +13,7 @@ $url_path = str_replace('\\', '/', $url_path);
                 <div class="row">
                     <div class="col-md-6 col-sm-6">
                         <div class="bao_tieude">
-                            <p>Showing 1–12 of 72 results {{dulieu}}</p>
+                            <p>Showing 1–12 of 72 results</p>
                         </div>
                     </div>
                     <div class="col-md-6 col-sm-6">
